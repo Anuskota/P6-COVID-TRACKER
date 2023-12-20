@@ -28,43 +28,43 @@ const Navbar = () => {
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-bars" style={{ color: "#3939ae", }}>
+                    <i className="bi-view-list" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-table-cells-large" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-grid" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-sharp fa-regular fa-folder-closed" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-folder" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-chart-pie" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-layers" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-arrow-trend-up" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-graph-up-arrow" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-globe" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-globe" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
                 <button>
-                    <i className="fa-regular fa-message" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-chat-left" style={{ color: "#3939ae", }}>
 
                     </i>
                     </button>
             </div>
             <div>
-                <i className="fa-solid fa-chart-pie" style={{ color: "#3939ae", }}>
+                <i className="ti-comment" style={{ color: "#3939ae", }}>
 
                     </i>
             </div>
