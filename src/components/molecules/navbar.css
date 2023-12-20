@@ -1,0 +1,10 @@
+
+nav{
+
+    display: flex;
+    flex-direction: column;
+    /* background-color:#F7F8FC ; */
+    background-color: aqua;
+    height: 100vh;
+    width: 4vw;
+}
