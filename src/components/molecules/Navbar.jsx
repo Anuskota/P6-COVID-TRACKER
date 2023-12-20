@@ -3,15 +3,6 @@ import coronavirus from "../../assets/img/coronavirus.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
-
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import {faChartPie} from '@fortawesome/fontawesome-svg-core/import.macro'
-// const element = <FontAwesomeIcon icon={faChartPie} />
-
-// ReactDOM.render(element, document.body)
-
-
-
 const Navbar = () => {
     return (
         <nav>
@@ -22,10 +13,7 @@ const Navbar = () => {
             </div>
             <div>
                 <button>
-                    {/* <FontAwesomeIcon icon={faChartPie} style={{color: "#3639ae",}} /> */}
-                    <i className="bi bi-pie-chart" style={{ color: "#3939ae", }}>
-
-                    </i>
+                    <i className="bi bi-pie-chart" style={{ color: "#3939ae", }}></i>
                 </button>
                 <button>
                     <i className="fa-solid fa-bars" style={{ color: "#3939ae", }}>
