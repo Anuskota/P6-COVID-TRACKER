@@ -1,12 +1,30 @@
-import './App.css'
+import { useState, useEffect } from 'react';
+import './App.css';
+import roots from './services/roots.js';
 
 function App() {
+  const [apiData, setApiData] = useState(null);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    roots()
+      .then((api) => {
+        setApiData(api);
+      })
+      .catch((error) => {
+        setError(error);
+      });
+  }, []); // O array vazio indica que o efeito deve ser executado apenas uma vez, sem dependências
 
   return (
     <>
-   <h1>Project Covid</h1>
+      {error ? (
+        <h1>Error: {error.message}</h1>
+      ) : (
+        apiData && <h1>{apiData}</h1>
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;
