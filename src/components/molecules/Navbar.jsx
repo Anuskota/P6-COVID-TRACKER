@@ -48,7 +48,7 @@ const Navbar = () => {
                     </i>
                 </button>
                 <button>
-                    <i className="fa-solid fa-arrow-trend-up" style={{ color: "#3939ae", }}>
+                    <i className="bi bi-graph-up-arrow" style={{ color: "#3939ae", }}>
 
                     </i>
                 </button>
