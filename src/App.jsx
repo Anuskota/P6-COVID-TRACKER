@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import './App.css';
 import roots from './services/roots.js';
 
@@ -14,14 +14,14 @@ function App() {
       .catch((error) => {
         setError(error);
       });
-  }, []); // O array vazio indica que o efeito deve ser executado apenas uma vez, sem dependências
+  }, []); 
 
   return (
     <>
       {error ? (
         <h1>Error: {error.message}</h1>
       ) : (
-        apiData && <h1>{apiData}</h1>
+       apiData && <img src={apiData} alt="Country Flag" />
       )}
     </>
   );
