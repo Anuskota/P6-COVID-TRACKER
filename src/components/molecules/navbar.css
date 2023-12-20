@@ -62,13 +62,13 @@ li{
 
 .nav-content-bttn:hover {
     background-color: #3939ae;
-    transition: 0.5s;
+    transition: 0.8s;
     border-radius: 0.5rem;
   }
 
 .nav-content-bttn:hover i{
     color: #F7F8FC;
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 @keyframes spin {
