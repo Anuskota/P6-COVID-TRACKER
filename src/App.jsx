@@ -21,7 +21,7 @@ function App() {
       {error ? (
         <h1>Error: {error.message}</h1>
       ) : (
-       apiData && <img src={apiData} alt="Country Flag" />
+        apiData && <img src={apiData}/>
       )}
     </>
   );
