@@ -3,11 +3,9 @@ import { useState, useEffect } from 'react';
 import fetchData from '../../services/fetchData';
 import './top10.css';
 
-
 const Top10 = () => {
     const [apiData, setApiData] = useState(null);
     const [error, setError] = useState(null);
-
 
     const apiEndpoint = 'countries'; 
 
