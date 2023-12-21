@@ -29,7 +29,7 @@
     width: 100%;
 }
 
-img{
+.logo img{
     margin-top: 2rem;
     width: 3.5rem;
     animation-name: spin;
