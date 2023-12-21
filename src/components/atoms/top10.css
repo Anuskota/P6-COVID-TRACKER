@@ -1,0 +1,17 @@
+
+.top10-card{
+ width: 22rem;
+ height: 3.125rem;
+ display: flex;
+ justify-content: center;
+ margin-left: 200px;
+ 
+
+}
+.top10-card img{
+    width: 2.5rem;
+    height: 1.875rem;
+    
+    vertical-align: middle;
+    border-style: none;
+}
