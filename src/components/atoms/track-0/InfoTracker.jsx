@@ -12,10 +12,11 @@ const InfoTracker = () => {
       ) : (
         data && (
           <div className='infoTracker-card'>
-            <div><h4>{data.cases}</h4></div>
-            <div><h4>{data.deaths} </h4></div>
-            <div><h4>{data.todayDeaths} </h4></div>
-            <div><h4>{data.todayDeaths} </h4></div>
+            <div className='title-container'><h6>Total Case</h6></div>
+            <div className='cases-container'>
+            <p className='today-cases-container'>+{data.todayCases} </p>
+            <div className='total-cases-container'><h6>{data.cases}</h6></div>
+            </div>
           </div>
         )
       )}
