@@ -5,7 +5,7 @@ const Hooks = () => {
   const [apiData, setApiData] = useState(null);
   const [error, setError] = useState(null);
 
-  const apiEndpoint = 'countries'; 
+  const apiEndpoint = 'all'; 
 
   useEffect(() => {
     fetchData(apiEndpoint) 

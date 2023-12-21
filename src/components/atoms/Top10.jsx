@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import roots from '../../services/roots';
+import fetchData from '../../services/fetchData';
 import './top10.css';
 
 
@@ -8,15 +8,18 @@ const Top10 = () => {
     const [apiData, setApiData] = useState(null);
     const [error, setError] = useState(null);
 
+
+    const apiEndpoint = 'countries'; 
+
     useEffect(() => {
-        roots()
-            .then((api) => {
-                setApiData(api);
-            })
-            .catch((error) => {
-                setError(error);
-            });
-    }, []);
+        fetchData(apiEndpoint) 
+        .then((api) => {
+            setApiData(api);
+        })
+        .catch((error) => {
+            setError(error);
+        });
+    }, [apiEndpoint]); 
 
     return (
         <>

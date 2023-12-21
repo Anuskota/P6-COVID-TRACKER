@@ -1,6 +1,6 @@
 
 import { useState, useEffect } from 'react';
-import roots from '../../atoms/track-0/InfoTracker';
+import fetchData from '../../../services/fetchData';
 import './infoTracker.css';
 
 
@@ -8,15 +8,18 @@ const InfoTracker = () => {
     const [apiData, setApiData] = useState(null);
     const [error, setError] = useState(null);
 
+
+    const apiEndpoint = 'all'; 
+
     useEffect(() => {
-        roots()
-            .then((api) => {
-                setApiData(api);
-            })
-            .catch((error) => {
-                setError(error);
-            });
-    }, []);
+        fetchData(apiEndpoint) 
+        .then((api) => {
+            setApiData(api);
+        })
+        .catch((error) => {
+            setError(error);
+        });
+    }, [apiEndpoint]); 
 
     return (
         <>
@@ -25,9 +28,9 @@ const InfoTracker = () => {
             ) : (
                 apiData && 
                 <div className='infoTracker-card'>
-                    <div><h3>{apiData[0].country}</h3></div>
-                    <div><h4>{apiData[0].country} </h4></div>
-                    <div><h4>{apiData[0].cases} </h4></div>
+                    <div><h4>{apiData.cases[1]}</h4></div>
+                    <div><h4>{apiData.deaths[2]} </h4></div>
+                    <div><h4>{apiData.todayDeaths[3]} </h4></div>
 
                 </div>
             )}
