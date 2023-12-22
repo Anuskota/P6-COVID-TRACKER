@@ -1,13 +1,14 @@
 .infoTracker-card{
     width: 22rem;
-    height: 3.125rem;
+    height: 4rem;
     display: flex;
     justify-content:space-between;
-    margin-left: 6.75rem;
     gap: 1rem;
     background-color: #FFF2F2;
     align-items: center;
     border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 .title-container{
     display: flex;
@@ -20,11 +21,11 @@ h6 {
     margin-left: 0.625rem;
     height: 100%;
 }
+
 .cases-container{
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .today-cases-container{
@@ -32,10 +33,12 @@ h6 {
     color: #999FB0;
     font-size: 0.625rem;
     padding: 0.5rem;
-    margin-right: 0.625rem;
-    display: flex;
-    align-items: center;
 }
+
+.today-cases-container p{
+    margin: 0;
+}
+
 
 .total-cases-container h6{
     color: #FF0000;
@@ -47,5 +50,6 @@ h6 {
     border: 2px solid #FF0000;
     transition: all 0.2s;
     transform:scale(1.02);
+    cursor: pointer;
 }
 

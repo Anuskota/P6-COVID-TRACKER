@@ -13,10 +13,11 @@ const Top10 = () => {
             ) : (
                 data && 
                 <div className='top10-card'>
-                    <div><img src={data[0].countryInfo.flag} alt="" /></div>
-                    <div><h4>{data[0].country} </h4></div>
-                    <div><h4>{data[0].cases} </h4></div>
-
+                    <div>
+                        <img src={data[0].countryInfo.flag} alt="" />
+                        <span>{data[0].country} </span>
+                    </div>                    
+                    <div><h6>{data[0].cases} </h6></div>
                 </div>
             )}
         </>
