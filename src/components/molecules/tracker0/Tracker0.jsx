@@ -1,9 +1,12 @@
 import InfoTracker from "../../atoms/track-0/InfoTracker";
 import Top10 from "../../atoms/track-0/Top10";
+import Navbar from '../Navbar';
 import './tracker0.css'
 
 const Tracker0 = () => {
   return (
+    <>
+    <Navbar></Navbar>
     <div className="tracker0">
     <h2>COVID-19 Tracker</h2>
     <InfoTracker></InfoTracker>
@@ -22,6 +25,7 @@ const Tracker0 = () => {
     <Top10></Top10>
     <Top10></Top10>
     </div>
+    </>
   )
 }
 
