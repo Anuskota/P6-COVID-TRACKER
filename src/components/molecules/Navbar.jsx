@@ -5,7 +5,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const Navbar = () => {
     return (
-
+<>
         <nav>
             <div>
                 <div className="nav-container">
@@ -31,7 +31,7 @@ const Navbar = () => {
             </div>
         </nav>
 
-
+        </>
 
     )
 }
