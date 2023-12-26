@@ -1,13 +1,13 @@
 .tracker3-card{
-  background: #fff;
+  background: #FFFFFF;
   box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: start;
   color: #121158;
   margin-bottom: 15px;
   transition: all 0.2s;
-  width: 10.375rem;
+  width: 9rem;
   height: 3.5rem;
 }
 
@@ -27,18 +27,20 @@
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  text-align: left;
 }
 
 .tracker3-card span {
   color: #121158;
   font-size: 12px;
   font-weight: 500;
+  text-align: left;
 }
 
 .tracker3-card-content-data{
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: right;
 }
 
 .tracker3-card:hover{
