@@ -1,6 +1,11 @@
 import React from 'react'
 import "./header.css"
-
+import mobileApp from "../../../assets/img/phones.png"
+import timeBrand from "../../../assets/img/b-2.png"
+import oceanBrand from "../../../assets/img/b-3.png"
+import alberoBrand from "../../../assets/img/b-4.png"
+import doraBrand from "../../../assets/img/b-5.png"
+import greenTurtleBrand from "../../../assets/img/b-6.png"
 
 const Header = () => {
   return (
@@ -11,8 +16,27 @@ const Header = () => {
         <button>HOW TO PROTECT</button>
     </div>
     <div className="image-header-container">
-        <img src="" alt="Image of the application displayed on a mobile phone" />
-
+        <img src={mobileApp} alt="Image of the application displayed on a mobile phone" />
+    </div>
+    <div className="brand-header-container">
+        <div>
+            <img src={timeBrand} alt="Time brand" />
+        </div>
+        <div>
+            <img src={oceanBrand} alt="Ocean brand" />
+        </div>
+        <div>
+            <img src={alberoBrand} alt="Albero brand" />
+        </div>
+        <div>
+            <img src={doraBrand} alt="Dora brand" />
+        </div>
+        <div>
+            <img src={greenTurtleBrand} alt="Green Turtle brand" />
+        </div>
+        <div>
+            <img src={timeBrand} alt="Time brand" />
+        </div>
     </div>
 </header>
   )
