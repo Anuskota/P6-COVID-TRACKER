@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 import  { useState, useEffect } from 'react';
+=======
+>>>>>>> 84ee14f9ce6238a8ae456ae3c91af77a7a555e0c
 import './App.css';
-import roots from './services/roots.js';
+import Router from './configuration/Router.jsx';
+
 
 function App() {
+<<<<<<< HEAD
   const [apiData, setApiData] = useState(null);
   const [error, setError] = useState(null);
 
@@ -16,14 +21,12 @@ function App() {
       });
   }, []); 
 
+=======
+>>>>>>> 84ee14f9ce6238a8ae456ae3c91af77a7a555e0c
   return (
     <>
-      {error ? (
-        <h1>Error: {error.message}</h1>
-      ) : (
-        apiData && <img src={apiData}/>
-      )}
-    </>
+      <Router/>
+   </>
   );
 }
 

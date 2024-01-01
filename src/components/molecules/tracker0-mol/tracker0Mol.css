@@ -1,0 +1,46 @@
+.tracker0{
+    height: 100vh;
+    margin-left: 6.25rem;
+    width: 25rem;
+    background: #fff;
+    padding: 0.625rem 1.25rem;
+    position: fixed;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    overflow-y: auto;
+}
+
+.tracker0 h2 {
+    font-weight: 700;
+    color: #0c0c0d;
+    font-size: 1.625rem;
+    margin: 0.625rem 0;
+    margin-bottom: 1.25rem;
+}
+
+.tracker0 h4 {
+    margin-top: 1.25rem;
+    margin-bottom: 0.938rem;
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: #121158;
+}
+
+::-webkit-scrollbar {
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 3px;
+    height: 655px;
+    background-color: rgb(238, 238, 238);
+    border: 0px solid rgb(255, 255, 255);
+    background-clip: padding-box;
+    border-radius: 5px;
+  }
+  
+
+@media screen and (max-width: 1199px) {
+    .tracker0 {
+        display: none;
+    }
+}
