@@ -1,5 +1,5 @@
 
-import Navbar from '../components/molecules/Navbar.jsx';
+import Navbar from '../components/molecules/navbarTracker/Navbar.jsx';
 import Tracker0Mol from '../components/molecules/tracker0-mol/Tracker0Mol.jsx';
 import Tracker3Mol from '../components/molecules/tracker3-mol/Tracker3Mol.jsx';
 
