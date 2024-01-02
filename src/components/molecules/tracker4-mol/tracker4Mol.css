@@ -1,0 +1,54 @@
+body{
+    width: 100vw;
+    overflow: hidden;
+    background: #F7F8FC;
+}
+
+h1 {
+    margin-left: 32rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #0c0c0d;
+    font-size: 1.625rem;
+    border-bottom: 1px solid #223461;
+    background: #F7F8FC;
+}
+.tracker4-container{
+    display: flex;
+    height: 100vh;
+    gap: 1.5rem;
+    margin-left: 31.25rem;
+    background: #F7F8FC;
+    padding: 0.625rem 1.25rem;
+}
+
+.tracker4-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1.5rem;
+    height: 0rem;
+}
+
+::-webkit-scrollbar {
+    position: relative;
+    top: 0px;
+    float: right;
+    width: 3px;
+    height: 655px;
+    background-color: rgb(238, 238, 238);
+    border: 0px solid rgb(255, 255, 255);
+    background-clip: padding-box;
+    border-radius: 5px;
+  } 
+
+  @media screen and (max-width: 1199px) {
+    .tracker4-container, h1 {
+        margin-left: 6.25rem;
+    }
+
+    .tracker4-row {
+        margin-left: -1rem;
+    }
+}
