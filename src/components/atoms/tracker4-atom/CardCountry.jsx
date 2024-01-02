@@ -1,12 +1,14 @@
 import PropTypes from 'prop-types';
-import './tracker4Atom.css';
+import './cardCountry.css';
+import UseData from "../../../hooks/UseData";
 
-const Tracker4Atom = ({ countryData }) => {
+const CardCountry = ({ countryData }) => {
+    const [handleClick] = UseData(dataDefault)
     return (
         <>
             {countryData ? (
-                <div className='tracker4-card'>
-                 
+                <div className='tracker4-card' onClick={handleClick}>
+
                         <img src={countryData.countryInfo.flag} alt="country flag" />
                         <h6>{countryData.country} </h6>
                                  
@@ -18,8 +20,8 @@ const Tracker4Atom = ({ countryData }) => {
     );
 };
 
-Tracker4Atom.propTypes = {
+CardCountry.propTypes = {
   countryData: PropTypes.object,
 };
 
-export default Tracker4Atom;
+export default CardCountry;
