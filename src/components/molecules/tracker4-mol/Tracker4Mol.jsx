@@ -13,7 +13,8 @@ const Tracker4Mol = () => {
 
   const handleButtonClick = (index) => {
     setActiveIndex(index);
-    handleClick();
+    const selectedCountryId = countryIds[index];
+    handleClick(selectedCountryId);
   };
 
   if (!data || data.length === 0 || !contentCard) {

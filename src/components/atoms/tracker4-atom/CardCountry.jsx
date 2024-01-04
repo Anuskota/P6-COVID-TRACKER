@@ -5,7 +5,7 @@ const CardCountry = ({ countryData, onClick, className }) => {
   return (
     <>
       {countryData ? (
-        <button className={`tracker4-card ${className}`} onClick={() => onClick(countryData.countryInfo.iso2)}>
+        <button className={`tracker4-card ${className}`} onClick={onClick}>
           <img src={countryData.countryInfo.flag} alt="country flag" />
           <h6>{countryData.country}</h6>
         </button>
