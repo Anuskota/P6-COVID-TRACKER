@@ -29,7 +29,11 @@ h1 {
     flex-wrap: wrap;
     justify-content: start;
     gap: 1.5rem;
-    /* height: 0rem; */
+    width: 100%;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
 }
 
 ::-webkit-scrollbar {

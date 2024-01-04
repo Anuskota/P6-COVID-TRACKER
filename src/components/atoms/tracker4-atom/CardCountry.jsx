@@ -1,18 +1,14 @@
 import PropTypes from 'prop-types';
 import './cardCountry.css';
-import UseData from "../../../hooks/UseData";
 
-const CardCountry = ({ countryData }) => {
-    const [handleClick] = UseData(dataDefault)
+const CardCountry = ({ countryData, onClick }) => {
     return (
         <>
             {countryData ? (
-                <div className='tracker4-card' onClick={handleClick}>
-
-                        <img src={countryData.countryInfo.flag} alt="country flag" />
-                        <h6>{countryData.country} </h6>
-                                 
-                </div>
+                <button className='tracker4-card' onClick={() => onClick(countryData.countryInfo.iso2)}>
+                    <img src={countryData.countryInfo.flag} alt="country flag" />
+                    <h6>{countryData.country}</h6>
+                </button>
             ) : (
                 <h1>Loading...</h1>
             )}
@@ -21,7 +17,8 @@ const CardCountry = ({ countryData }) => {
 };
 
 CardCountry.propTypes = {
-  countryData: PropTypes.object,
+    countryData: PropTypes.object,
+    onClick: PropTypes.func,
 };
 
 export default CardCountry;
