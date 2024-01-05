@@ -1,41 +1,82 @@
 .cardData{
   background: #FFFFFF;
   box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.05);
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-  justify-content: left;
   transition: all 0.2s;
-  width: 10rem;
-  height: 5rem;
+  width: 15rem;
+  height: 6rem;
   padding: 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.25rem;  
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
 }
 
-.tracker4-card img{
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-  border-style: none;
-  border-radius: 30px;
-  margin-bottom: 0;
-  padding: 0.563rem;
-}
 
-.tracker4-card h6 {
-  color: #121158;
-  font-family: 'Roboto Condensed', sans-serif;
+.cardData h5 {
   font-weight: 500;
-  text-align: left;
-  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  margin-left: auto;
+  height: auto;
+  position: absolute;
+  height: 2rem;
+  width: 100%;
+ }
+
+ .cardData h3 {
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  position: absolute;
+  margin-top: 2.25rem;
+  font-weight: 800;
+ }
+
+
+.cardData img{
+  width: 156px;
+  height: 164px;
+  position: absolute;
+  right: -43px;
+  top: -41px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 20px;
+  opacity: 0.1;
 }
 
-.tracker4-card:hover{
-  transition: all 0.2s;
-  cursor: pointer;
-  background-color: #3939ae;
+.cardCases{
+  color: #3639AE;
 }
 
-.tracker4-card:hover h6{
-  color: #F7F8FC;
+.cardDeaths{
+  color: #ff0000;
+  }
+  
+  .cardRecovered{
+    color: #82c519;
+
+  }
+
+  .cardActive{
+    color: #2c6dff;
+
+  }
+  
+  
+.cardNewCases {
+color: #ff6a07
 }
+
+.cardNewDeaths{
+color: #b70202;
+}
+
+
+
