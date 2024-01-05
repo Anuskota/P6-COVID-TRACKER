@@ -51,30 +51,30 @@
   opacity: 0.1;
 }
 
-.colorDefault{
+.cardCases{
   color: #3639AE;
 }
 
-.colorRed{
+.cardDeaths{
   color: #ff0000;
   }
   
-  .colorGreen{
+  .cardRecovered{
     color: #82c519;
 
   }
 
-  .colorBlue{
+  .cardActive{
     color: #2c6dff;
 
   }
   
   
-.colorOrange {
+.cardNewCases {
 color: #ff6a07
 }
 
-.colorDarkRed{
+.cardNewDeaths{
 color: #b70202;
 }
 
