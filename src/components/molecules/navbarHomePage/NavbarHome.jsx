@@ -13,8 +13,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const NavbarHome = () => {
   return (
     <nav>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container-fluid mx-auto">
+      <nav className=" navbar navbar-expand-lg  navbar-light bg-light ">
+        <div className="container-fluid mx-auto  ">
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <div className="image-covid">
               <img src={logoBlue}></img >

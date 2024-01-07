@@ -1,17 +1,19 @@
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
-      display: block;
-
-
+    display: block;  
 }
+
 .navbar-nav{
     position: absolute;
     left: 50%;
     transform: translatex(-50%);
     font-family: sans-serif;
-    z-index: 999;
-   
-    
+    z-index: 999;    
 }
+.image-covid{
+    
+    color: #3639AE;
+}
+
 .btn{
     padding: 10px 20px !important;
     min-width: 150px !important;
@@ -39,13 +41,13 @@
 
 .navbar ul > li > a{
     
-    font-size: 15px;
-    font-weight: 500;
-   
+    font-size: 16px;
+    font-weight: 600;
     white-space: nowrap;
 }
 .dropdown .dropdown-menu{
     width: 100%;
+    position: relative;
     transform: translate3d(0px, 250px, 0px)!important;
 }
 /*Me quedo aqui tranformando el dropdwn*/
