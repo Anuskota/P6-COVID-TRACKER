@@ -1,5 +1,5 @@
 import "./navbarHome.css";
-import logoBlue from "../../../assets/img/coronavirus.png"
+import logoBlue from "../../../assets/img/logo.png"
 import logoWhite from "../../../assets/img/logo-white.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
@@ -13,11 +13,11 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 const NavbarHome = () => {
   return (
     <nav>
-      <nav className=" navbar navbar-expand-lg  navbar-light bg-light ">
-        <div className="container-fluid mx-auto  ">
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <div className="image-covid">
-              <img src={logoBlue}></img >
+      <nav className=" navbar navbar-expand-lg bg-body navbar-light bg-light  ">
+        <div className="container-fluid">
+          <div className="collapse navbar-collapse " id="navbarSupportedContent">
+            <div className="image-covid ">
+              <img className="ms-5" src={logoBlue}></img >
             </div>
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 d-grid gap-5 d-md-flex ">
               <li className="nav-item dropdown ">
@@ -32,7 +32,7 @@ const NavbarHome = () => {
                 >
                   Home
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul className="dropdown-menu fade slide show" aria-labelledby="navbarDropdown">
                   <li>
                     <a className="dropdown-item" href="#">
                       Home One
@@ -115,7 +115,7 @@ const NavbarHome = () => {
                 >
                   Pages
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown" >
+                <ul className="dropdown-menu fade slide show" aria-labelledby="navbarDropdown" >
                   <li>
                     <a className="dropdown-item" href="#">
                       Hand Wash
