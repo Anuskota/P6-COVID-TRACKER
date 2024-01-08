@@ -7,47 +7,46 @@ import covidOrange from "../../../assets/img/covid-orange.svg";
 import covidGreen from "../../../assets/img/covid-green.svg";
 import covidBlue from "../../../assets/img/covid-blue.svg";
 
-
 function CardData({ countryData }) {
   return (
     <>
       <div className="cards-container">
         {countryData ? (
           <>
-            <div className="cardData cardCases">
+            <div className="cardData colorDefault">
               <h5>Total Cases</h5>
               <h3>{countryData.cases}</h3>
-              <img className="cardCases" src={covidDefault} alt="coronavirus"/>
+              <img src={covidDefault} alt="coronavirus" />
             </div>
 
-            <div className="cardData cardDeaths">
+            <div className="cardData colorRed">
               <h5>Total Deaths </h5>
               <h3>{countryData.deaths}</h3>
-              <img className="cardDeaths" src={covidRed} alt="coronavirus"/>
+              <img src={covidRed} alt="coronavirus" />
             </div>
 
-            <div className="cardData cardRecovered">
+            <div className="cardData colorGreen">
               <h5>Total Recovered</h5>
               <h3>{countryData.recovered}</h3>
-              <img className="cardRecovered" src={covidGreen} alt="coronavirus"/>
+              <img src={covidGreen} alt="coronavirus" />
             </div>
 
-            <div className="cardData cardActive">
+            <div className="cardData colorBlue">
               <h5>Total Active</h5>
               <h3>{countryData.active}</h3>
-              <img className="cardActive" src={covidBlue} alt="coronavirus"/>
+              <img src={covidBlue} alt="coronavirus" />
             </div>
 
-            <div className="cardData cardNewCases">
+            <div className="cardData colorOrange">
               <h5>New Cases</h5>
               <h3>{countryData.todayCases}</h3>
-              <img className="cardNewCases" src={covidOrange} alt="coronavirus"/>
+              <img src={covidOrange} alt="coronavirus" />
             </div>
 
-            <div className="cardData cardNewDeaths">
+            <div className="cardData colorDarkRed">
               <h5>New Deaths</h5>
               <h3>{countryData.todayDeaths}</h3>
-              <img className="cardNewDeaths" src={covidRedDark} alt="coronavirus"/>
+              <img src={covidRedDark} alt="coronavirus" />
             </div>
           </>
         ) : (
