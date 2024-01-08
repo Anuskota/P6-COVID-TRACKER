@@ -36,7 +36,7 @@ header {
 }
 
 h2 {
-    color: #121158;
+    color: #ffffff;
     font-weight: bolder;
     font-size: 3.25rem;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@ h2 {
 }
 
 p {
-    color: #515184;
+    color: #ffffff;
     font-size: 1rem;
     margin-bottom: 1rem;
 }
@@ -58,15 +58,16 @@ button {
     font-size: 0.75rem;
     letter-spacing: 1px;
     border-radius: 30px;
+    border: 1.5px solid #3639AE;
 }
 
 .image-header-container {
     padding-right: 1rem;
     padding-left: 1rem;
     width: 50%;
-    border: 2px solid rgb(248, 48, 252);
     display: flex;
     justify-content: center;
+    border: 2px solid rgb(248, 48, 252);
 }
 
 .image-header-container img {
