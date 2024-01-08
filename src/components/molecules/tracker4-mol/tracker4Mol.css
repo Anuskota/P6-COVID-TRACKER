@@ -16,11 +16,13 @@ h1 {
 }
 .tracker4-container{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
     padding: 0.625rem 1.25rem;
+    flex-wrap: wrap;
 }
 
 .tracker4-row{
@@ -28,7 +30,12 @@ h1 {
     flex-wrap: wrap;
     justify-content: start;
     gap: 1.5rem;
-    height: 0rem;
+    width: 100%;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 ::-webkit-scrollbar {

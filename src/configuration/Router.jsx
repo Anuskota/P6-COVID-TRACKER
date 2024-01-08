@@ -4,6 +4,8 @@ import Tracker0 from "../pages/Tracker0";
 import Tracker2 from "../pages/Tracker2";
 import Tracker3 from "../pages/Tracker3";
 import Tracker4 from "../pages/Tracker4";
+import Tracker7 from "../pages/Tracker7";
+
 
 function Router() {
   return (
@@ -14,6 +16,7 @@ function Router() {
         <Route path="/tracker2" element={<Tracker2/>}></Route>
         <Route path="/tracker3" element={<Tracker3/>}></Route>
         <Route path="/tracker4" element={<Tracker4/>}></Route>
+        <Route path="/tracker7" element={<Tracker7/>}></Route>
     </Routes>
 </BrowserRouter>
   )
