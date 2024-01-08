@@ -13,25 +13,29 @@ h1 {
     font-size: 1.625rem;
     border-bottom: 1px solid #223461;
     background: #F7F8FC;
-    
 }
-.tracker3-container{
+.tracker4-container{
     display: flex;
+    flex-direction: column;
     height: 100vh;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
     padding: 0.625rem 1.25rem;
-    overflow-y: auto;
-    overflow: hidden;
+    flex-wrap: wrap;
 }
 
-.tracker3-column h4 {
-    font-weight: 600;
-    font-size: 1.125rem;
-    color: #121158;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.tracker4-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 1.5rem;
+    width: 100%;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +51,11 @@ h1 {
   } 
 
   @media screen and (max-width: 1199px) {
-    .tracker3-container, h1 {
+    .tracker4-container, h1 {
         margin-left: 6.25rem;
+    }
+
+    .tracker4-row {
+        margin-left: -1rem;
     }
 }
