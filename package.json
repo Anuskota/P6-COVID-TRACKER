@@ -17,7 +17,7 @@
     "bootstrap-icons": "^1.11.2",
 >>>>>>> 84ee14f9ce6238a8ae456ae3c91af77a7a555e0c
     "react": "^18.2.0",
-    "react-bootstrap": "^2.9.1",
+    "react-bootstrap": "^2.9.2",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1"
   },
