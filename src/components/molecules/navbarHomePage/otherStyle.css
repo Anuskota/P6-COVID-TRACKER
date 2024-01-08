@@ -1,0 +1,140 @@
+.header-wrapper {
+    padding: 10px 0px;
+    background: transparent;
+    border-bottom: 0px solid #E1E1F0;
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: auto !important;
+}
+.header-wrapper.fixed {
+    padding: 10px 0px;
+    /* box-shadow: 0 0.05rem 0.01rem rgba(75, 75, 90, 0.075); */
+    border-color: transparent;
+    background-color: #fff;
+    box-shadow: 0px 30px 60px rgba(160, 159, 202, 0.45);
+}
+
+
+.container-navbar {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: -15px;
+}
+
+/*No estoy segura de estas medidas*/
+.col-xl-12{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: right;
+    justify-content: space-between;
+    /* padding: 0.5rem 1rem; */
+}
+
+.navbar-brand {
+    /* display: inline-block; */
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-light .navbar-brand {
+    color: rgba(0, 0, 0, 0.9);
+}
+.navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.navbar-light .navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+.navbar-toggler:hover, .navbar-toggler:focus {
+    text-decoration: none;
+}
+.header-wrapper .navigation .navbar {
+    background-color: transparent !important;
+    padding: 0px;
+}
+.logo-white{
+  display:none;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    
+}
+collapse:not(.show) {
+    display: none;
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+li {
+    list-style: none;
+    
+}
+.header-wrapper .navigation .navbar ul {
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 991px){
+  .signin-btn {
+    position: absolute;
+    right: 73px;
+    top: 3px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .header-wrapper .navigation .navbar ul {
+    margin-top: 15px;
+    height: 300px;
+    overflow: scroll;
+  }
+}
