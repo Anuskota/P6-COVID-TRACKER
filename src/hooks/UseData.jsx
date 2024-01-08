@@ -1,4 +1,3 @@
-// UseData.jsx
 import { useState, useEffect } from "react";
 import FetchData from "../services/FetchData";
 

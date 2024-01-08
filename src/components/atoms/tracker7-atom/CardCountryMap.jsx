@@ -1,14 +1,14 @@
 import PropTypes from "prop-types";
-import "./cardCountry.css";
+import "./cardCountryMap.css";
 
-const CardCountry = ({ countryData, onClick, className }) => {
+const CardCountryMap = ({ countryData }) => {
   return (
     <>
       {countryData ? (
-        <button className={`tracker4-card ${className}`} onClick={onClick}>
+        <div className={`tracker7-card`}>
           <img src={countryData.countryInfo.flag} alt="country flag" />
           <h6>{countryData.country}</h6>
-        </button>
+        </div>
       ) : (
         <h1>Loading...</h1>
       )}
@@ -16,10 +16,10 @@ const CardCountry = ({ countryData, onClick, className }) => {
   );
 };
 
-CardCountry.propTypes = {
+CardCountryMap.propTypes = {
   countryData: PropTypes.object,
   onClick: PropTypes.func,
   className: PropTypes.string,
 };
 
-export default CardCountry;
+export default CardCountryMap;

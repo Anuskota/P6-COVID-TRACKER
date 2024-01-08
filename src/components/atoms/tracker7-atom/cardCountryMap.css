@@ -1,0 +1,24 @@
+.tracker7-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+}
+
+.tracker7-card img {
+  width: 50px;
+  height: 35px;
+  border-radius: 4px;
+  margin-right: 10px !important;
+}
+
+.tracker7-card h6 {
+  margin-bottom: 0;
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+  color: #121158;
+}
+

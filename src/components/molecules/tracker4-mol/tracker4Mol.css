@@ -22,6 +22,7 @@ h1 {
     margin-left: 31.25rem;
     background: #F7F8FC;
     padding: 0.625rem 1.25rem;
+    flex-wrap: wrap;
 }
 
 .tracker4-row{
@@ -34,6 +35,7 @@ h1 {
 .cards-container{
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 ::-webkit-scrollbar {
