@@ -1,6 +1,5 @@
 import "./navbarHome.css";
 import logoBlue from "../../../assets/img/logo.png"
-import logoWhite from "../../../assets/img/logo-white.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
