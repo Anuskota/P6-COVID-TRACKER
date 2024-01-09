@@ -1,6 +1,5 @@
-body{
-    display: flex;
+body, #root{
     box-sizing: border-box;
-    line-height: 1.75;
+    width: 100%;
     font-family: 'Poppins', sans-serif;
 }

@@ -1,11 +1,5 @@
-body{
-    width: 100vw;
-    overflow: hidden;
-    background: #F7F8FC;
-}
-
-h1 {
-    margin-left: 32rem;
+.tracker4-container h1 {
+    margin-left: 0;
     font-weight: 700;
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -14,6 +8,7 @@ h1 {
     border-bottom: 1px solid #223461;
     background: #F7F8FC;
 }
+
 .tracker4-container{
     display: flex;
     flex-direction: column;
@@ -51,7 +46,11 @@ h1 {
   } 
 
   @media screen and (max-width: 1199px) {
-    .tracker4-container, h1 {
+    .tracker4-container {
+        margin-left: 6.25rem;
+    }
+
+    .tracker4-container h1 {
         margin-left: 6.25rem;
     }
 
