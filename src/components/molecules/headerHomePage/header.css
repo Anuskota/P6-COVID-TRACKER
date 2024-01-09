@@ -1,99 +1,97 @@
 header {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    max-width: 100vw;
-    font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100vw;
+  font-family: "Poppins", sans-serif;
 }
 
 .header-main-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    background: linear-gradient(to bottom, #06cdec, rgba(30, 12, 157, 0.4));
-    /* padding: 0rem 5rem 0rem 5rem; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background: linear-gradient(to bottom, #06cdec, rgba(30, 12, 157, 0.4));
+  /* padding: 0rem 5rem 0rem 5rem; */
 }
 
 .header-container {
-    width: 90%;
-    margin-top: 3.75rem;
-    margin-bottom: 8rem;
-    display: flex;
-    /* justify-content: center; */
+  width: 90%;
+  margin-top: 3.75rem;
+  margin-bottom: 8rem;
+  display: flex;
+  /* justify-content: center; */
 
-    border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .info-header-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 50%;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    border: 2px solid rgb(255, 153, 1);
-   
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 50%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  border: 2px solid rgb(255, 153, 1);
 }
 
 h2 {
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 3.25rem;
-    letter-spacing: 1px;
-    margin-bottom: 1.25rem;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 3.25rem;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
 }
 
 p {
-    color: #ffffff;
-    font-size: 1rem;
-    margin-bottom: 1rem;
+  color: #ffffff;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 button {
-    color: #fff;
-    background-color: #121158;
-    margin-bottom: 1.875rem;
-    padding: 1.25rem 3.125rem;
-    font-weight: 600;
-    font-size: 0.75rem;
-    letter-spacing: 1px;
-    border-radius: 30px;
-    border: 1.5px solid #3639AE;
+  color: #fff;
+  background-color: #121158;
+  margin-bottom: 1.875rem;
+  padding: 1.25rem 3.125rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  border: 1.5px solid #3639ae;
 }
 
 .image-header-container {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    border: 2px solid rgb(248, 48, 252);
+  padding-right: 1rem;
+  padding-left: 1rem;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  border: 2px solid rgb(248, 48, 252);
 }
 
 .image-header-container img {
-    width: 65%;
-    height: auto;
+  width: 65%;
+  height: auto;
 }
 
 .header-secondary-container {
-    width: 100%;
-    position: relative;
-    top: -65px;
+  width: 100%;
+  position: relative;
+  top: -65px;
 }
 
 .header-brand-container {
-    display: flex;
-    width: 90%;
-    margin: auto;
-    padding: 1.25rem;
-    z-index: 1; 
-    gap: 4rem;
-    justify-content: center;
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  display: flex;
+  width: 90%;
+  margin: auto;
+  padding: 1.25rem;
+  z-index: 1;
+  gap: 4rem;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .brand-container {
-    width: 100%;
+  width: 100%;
 }

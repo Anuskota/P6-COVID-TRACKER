@@ -1,10 +1,10 @@
 footer {
   background-color: #1b2a4e;
- color: #ffffff;
+  color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   line-height: 1.75;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .higher-footer {
@@ -21,14 +21,14 @@ footer {
   width: 20rem;
 }
 
-.icons-footer-container p{
-    color: #515184;
-    line-height: 1.875rem;
-    font-weight: 400;
-    font-size: 0.875rem;
-    margin-right: 5rem;
-    margin-top: 2rem;
-  }
+.icons-footer-container p {
+  color: #515184;
+  line-height: 1.875rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-right: 5rem;
+  margin-top: 2rem;
+}
 
 .icons-list {
   display: flex;
@@ -38,19 +38,19 @@ footer {
 }
 
 .icons-list li {
-    width: 2.5rem;
-    height: 2.5rem;
-    border-radius: 2.5rem;
-    display: inline-block;
-    background-color: #293f73;
-    text-align: center;
-    line-height: 2.5rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  display: inline-block;
+  background-color: #293f73;
+  text-align: center;
+  line-height: 2.5rem;
 }
 
 .icons-list li:hover {
-    color: #293f73;
-    background-color: #FFFFFF;
-    cursor: pointer;  
+  color: #293f73;
+  background-color: #ffffff;
+  cursor: pointer;
 }
 
 .list-footer-container {
@@ -64,7 +64,7 @@ footer {
   align-items: start;
 }
 
-.list-footer-content h4{
+.list-footer-content h4 {
   font-size: 1rem;
   font-weight: 600;
 }
@@ -75,15 +75,15 @@ footer {
 }
 
 .list-footer-content li {
-    list-style: none;
-    color: #515184;
-    font-size: 1rem;
-    font-weight: 400;
+  list-style: none;
+  color: #515184;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 .list-footer-content li:hover {
   cursor: pointer;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .lower-footer {
@@ -97,7 +97,6 @@ footer {
   padding: 2rem;
 }
 
-.lower-footer p a{
-  color: #FFFFFF !important;
+.lower-footer p a {
+  color: #ffffff !important;
 }
-

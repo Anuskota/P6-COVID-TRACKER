@@ -34,7 +34,7 @@
     animation-timing-function: linear; 
 }
 
-li {
+.nav-items-container li {
     margin: 0;
     padding: 0;
     border-radius: 0.438rem;

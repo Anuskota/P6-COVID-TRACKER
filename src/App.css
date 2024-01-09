@@ -1,5 +1,6 @@
-body, #root{
-      box-sizing: border-box;
-      width: 100%;
-    font-family: 'Poppins', sans-serif;
+body,
+#root {
+  box-sizing: border-box;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
 }
