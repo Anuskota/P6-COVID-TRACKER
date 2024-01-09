@@ -1,4 +1,3 @@
-import React from 'react'
 import "./header.css"
 import mobileApp from "../../../assets/img/phones.png"
 import timeBrand from "../../../assets/img/b-2.png"

@@ -1,0 +1,48 @@
+.tracker4-card {
+  background: #FFFFFF;
+  box-shadow: 0 15px 30px 0 rgba(20, 50, 90, 0.053);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 0.25rem;
+  border-color: transparent;
+}
+
+.tracker4-card img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-style: none;
+  border-radius: 30px;
+  margin-bottom: 0;
+  padding: 0.563rem;
+}
+
+.tracker4-card h6 {
+  color: #121158;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+}
+
+.tracker4-card:hover {
+  transition: all 0.2s;
+  cursor: pointer;
+  background-color: #3939ae;
+}
+
+.tracker4-card:hover h6 {
+  color: #F7F8FC;
+}
+
+.tracker4-card.active  {
+  background-color: #3939ae;
+}
+
+.tracker4-card.active  h6{
+  color: #F7F8FC;
+}
