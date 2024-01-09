@@ -1,11 +1,5 @@
-body {
-  width: 100vw;
-  overflow: hidden;
-  background: #f7f8fc;
-}
-
-h1 {
-  margin-left: 32rem;
+.map-container h1 {
+  margin-left: 0;
   font-weight: 700;
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -18,8 +12,9 @@ h1 {
 .map-container {
   width: 100%;
   height: 30rem;
-  background-color: white;
+  background: #f7f8fc;
   margin-left: 31.25rem;
+  padding-left: 1rem;
 }
 .tracker7-container {
   display: flex;
@@ -83,8 +78,7 @@ h1 {
 
 @media screen and (max-width: 1199px) {
   .tracker7-container,
-  h1,
-  .map-container {
+  .map-container, .tracker7-container h1 {
     margin-left: 6.25rem;
   }
 
