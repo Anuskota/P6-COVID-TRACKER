@@ -1,4 +1,3 @@
-import React from 'react'
 import "./header.css"
 import mobileApp from "../../../assets/img/phones.png"
 import timeBrand from "../../../assets/img/b-2.png"
@@ -27,22 +26,24 @@ const Header = () => {
         <div className="header-secondary-container">
             <div className="header-brand-container">
                 <div className="brand-container">
-                    <img src={timeBrand} alt="Time brand" />
-                </div>
-                <div className="brand-container">
-                    <img src={oceanBrand} alt="Ocean brand" />
-                </div>
-                <div className="brand-container">
-                    <img src={alberoBrand} alt="Albero brand" />
-                </div>
-                <div className="brand-container">
-                    <img src={doraBrand} alt="Dora brand" />
-                </div>
-                <div className="brand-container">
-                    <img src={greenTurtleBrand} alt="Green Turtle brand" />
-                </div>
-                <div className="brand-container">
-                    <img src={timeBrand} alt="Time brand" />
+                    <div className="brand">
+                        <img src={timeBrand} alt="Time brand" />
+                    </div>
+                    <div className="brand">
+                        <img src={oceanBrand} alt="Ocean brand" />
+                    </div>
+                    <div className="brand">
+                        <img src={alberoBrand} alt="Albero brand" />
+                    </div>
+                    <div className="brand">
+                        <img src={doraBrand} alt="Dora brand" />
+                    </div>
+                    <div className="brand">
+                        <img src={greenTurtleBrand} alt="Green Turtle brand" />
+                    </div>
+                    <div className="brand">
+                        <img src={timeBrand} alt="Time brand" />
+                    </div>
                 </div>
             </div>
         </div>

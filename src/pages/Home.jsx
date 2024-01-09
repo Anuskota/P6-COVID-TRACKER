@@ -4,8 +4,7 @@ import NavbarHome from "../components/molecules/navbarHomePage/NavbarHome";
 
 const Home = () => {
   return (
-    <>
-    
+    <>    
     <NavbarHome/>  
     <Header/>
     <Footer/>
