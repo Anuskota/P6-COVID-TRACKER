@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-h6 {
+.infoTracker-card h6{
     color: #1A1662;
     font-size: 1rem;
     margin-left: 0.625rem;
