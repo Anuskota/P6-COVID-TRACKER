@@ -1,8 +1,8 @@
-
+/* 
 .tracker4-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+  
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
@@ -43,4 +43,4 @@
     .tracker4-row {
         margin-left: -1rem;
     }
-}
+} */
