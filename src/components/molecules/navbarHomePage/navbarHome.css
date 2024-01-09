@@ -5,14 +5,6 @@
 }
 
 
-/* .navbar-nav{
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
-    font-family: sans-serif;
-    z-index: 999;    
-} */
-
 
 .btn{
     padding: 10px 20px !important;
@@ -31,11 +23,11 @@
     background-color: #3639AE;
     border-color: #3639AE;
 }
-.navbar-collapse{
+/* .navbar-collapse{
     flex-grow: 1;
     align-items: center;
     
-}
+} */
 
 .navbar ul > li > a{
     
@@ -46,7 +38,7 @@
 .dropdown-home{
     width: 100%;
     position: relative;
-    transform: translate3d(0px, 250px, 0px)!important;
+    transform: translate3d(0px, 0px, 0px)!important;
     border: none;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
@@ -54,7 +46,7 @@
 .dropdown-pages{
     width: 100%;
     position: relative;
-    transform: translate3d(0px, 100px, 0px)!important;
+    transform: translate3d(0px, 0px, 0px)!important;
     border: none;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
@@ -68,14 +60,13 @@
     font-size: 50px;
 }
 .navbar-nav .nav-item {
-  margin-right: 50px; /* Puedes ajustar el valor según tu preferencia */
+  margin-right: 50px; 
 }
 
 
 
 
 
-/*Me quedo aqui tranformando el dropdwn*/
 
 
 

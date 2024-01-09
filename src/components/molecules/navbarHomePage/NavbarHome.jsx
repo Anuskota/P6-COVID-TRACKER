@@ -27,11 +27,11 @@ const NavbarHome = () => {
                   <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                  className="collapse navbar-collapse d-flex justify-content-evenly"
+                  className="collapse navbar-collapse"
                   id="navbarNavDropdown"
                 >
                   <ul className="navbar-nav">
-                    <li className="nav-item dropdown ">
+                    <li className="nav-item dropdown">
                       <a
                         className="nav-link dropdown-toggle"
                         href="#"
