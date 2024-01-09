@@ -8,13 +8,13 @@ const NavbarHome = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-xl-12 d-flex justify-content-around ">
+        <div className="col-xl-12">
           <nav>
             <div className=" navbar navbar-expand-lg bg-body navbar-light bg-light   ">
-              <div className="image-covid ">
+              <div className="image-covid col-4 col-lg-4 col-md-6">
                 <img className="ms-5 img-fluid" src={logoBlue}></img>
               </div>
-              <div>
+              <div className="image-covid col-lg-8 col-md-6">
               <button
                 className="navbar-toggler"
                 type="button"
