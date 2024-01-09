@@ -1,5 +1,11 @@
+<<<<<<< HEAD
 .tracker3-container {
     width: 100%;
+=======
+/* body{
+    width: 100vw;
+    overflow: hidden;
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
     background: #F7F8FC;
 }
 
@@ -46,7 +52,11 @@
     .tracker3-container {
         margin-left: 6.25rem;
     }
+<<<<<<< HEAD
     .tracker3-container h1 {
         margin-left: 6.25rem;
     }
 } 
+=======
+} */
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
