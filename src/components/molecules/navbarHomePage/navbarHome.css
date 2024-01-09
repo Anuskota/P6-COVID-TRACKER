@@ -64,6 +64,12 @@
     display: block;  
     opacity: 1;
 }
+.navbar-toggle{
+    font-size: 50px;
+}
+.navbar-nav .nav-item {
+  margin-right: 50px; /* Puedes ajustar el valor según tu preferencia */
+}
 
 
 
