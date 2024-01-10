@@ -1,4 +1,4 @@
-header {
+ header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -18,7 +18,7 @@ header {
     width: 80%;
     margin-top: 3.75rem;
     margin-bottom: 8rem;
-    display: flex;
+    display: flex; 
     /* justify-content: center; */
     /* border: 2px solid rgb(255, 255, 255); */
 }
@@ -78,10 +78,17 @@ button {
     width: 100%;
     position: relative;
     top: -65px;
+<<<<<<< HEAD
 }
 
 .header-brand-container { 
     width: 80%;
+=======
+} 
+ .header-brand-container {
+    display: flex;
+    width: 90%;
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
     margin: auto;
     padding: 1.25rem;
     z-index: 1; 
@@ -92,6 +99,7 @@ button {
 }
 
 .brand-container {
+<<<<<<< HEAD
     display: flex;
     align-items: center;
 }
@@ -105,3 +113,7 @@ button {
     width: 60px;
     height: 60px;
 }
+=======
+    width: 100%; 
+} 
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44

@@ -1,5 +1,5 @@
 
-.navbar {
+/* .navbar {
     height: 100px;
     
 }
@@ -55,6 +55,7 @@
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu{
     display: block;  
     opacity: 1;
+<<<<<<< HEAD
 }
 .navbar-toggle{
     font-size: 50px;
@@ -62,11 +63,18 @@
 .navbar-nav .nav-item {
   margin-right: 50px; 
 }
+=======
+} */
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 
 
 
 
 
+<<<<<<< HEAD
+=======
+/*Me quedo aqui tranformando el dropdwn*/
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 
 
 
