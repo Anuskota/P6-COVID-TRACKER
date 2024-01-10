@@ -6,7 +6,6 @@ import oceanBrand from "../../../assets/img/b-3.png"
 import alberoBrand from "../../../assets/img/b-4.png"
 import doraBrand from "../../../assets/img/b-5.png"
 import greenTurtleBrand from "../../../assets/img/b-6.png"
-
 const Header = () => {
   return (
     <header>
@@ -48,9 +47,10 @@ const Header = () => {
                 </div>
             </div>
         </div>
+     </header>
+   
+    );
+  }
 
-    </header>
-  )
-}
 
 export default Header

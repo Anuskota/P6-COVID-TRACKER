@@ -105,3 +105,13 @@ button {
     width: 60px;
     height: 60px;
 }
+
+
+.tracker{
+    width: 1000px;
+}
+
+.tracker img {
+    width: 100px;
+    height: 100px;
+}
