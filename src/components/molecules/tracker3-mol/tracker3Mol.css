@@ -1,3 +1,8 @@
+.tracker3-container {
+    width: 100%;
+    background: #F7F8FC;
+}
+
 .tracker3-container-h1 {
     margin-left: 32rem;
     font-weight: 700;
@@ -7,13 +12,14 @@
     font-size: 1.625rem;
     border-bottom: 1px solid #223461;
     background: #F7F8FC;
+    
 }
-.tracker3-container{
-    display: flex; 
+.tracker3-row {
+    display: flex;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
-    padding: 0.625rem 1.25rem;    
+    padding: 0.625rem 1.25rem;  
 }
 
 .tracker3-column h4 {
@@ -38,6 +44,9 @@
 
   @media screen and (max-width: 1199px) {
     .tracker3-container {
+        margin-left: 6.25rem;
+    }
+    .tracker3-container h1 {
         margin-left: 6.25rem;
     }
 }
