@@ -144,7 +144,7 @@ const NavbarHome = () => {
                     </li>
                     <div className="singin-btn">
                       <NavLink
-                        to="/tracker0"
+                        to="/tracker"
                         className="btn btn-primary d-none d-lg-block"
                         role="button"
                       >
