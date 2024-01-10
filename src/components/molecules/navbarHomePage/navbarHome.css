@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 .navbar {
   height: 100px;
+=======
+
+/* .navbar {
+    height: 100px;
+    
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 }
 
 .navbar-nav {
@@ -48,9 +55,16 @@
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
 }
+<<<<<<< HEAD
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   opacity: 1;
 }
+=======
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu{
+    display: block;  
+    opacity: 1;
+} */
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 
 /*Me quedo aqui tranformando el dropdwn*/
