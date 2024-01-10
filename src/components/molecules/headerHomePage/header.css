@@ -1,4 +1,4 @@
-header {
+ header {
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
@@ -18,7 +18,7 @@ header {
     width: 90%;
     margin-top: 3.75rem;
     margin-bottom: 8rem;
-    display: flex;
+    display: flex; 
     /* justify-content: center; */
 
     border: 2px solid rgb(255, 255, 255);
@@ -79,9 +79,8 @@ button {
     width: 100%;
     position: relative;
     top: -65px;
-}
-
-.header-brand-container {
+} 
+ .header-brand-container {
     display: flex;
     width: 90%;
     margin: auto;
@@ -95,5 +94,5 @@ button {
 }
 
 .brand-container {
-    width: 100%;
-}
+    width: 100%; 
+} 
