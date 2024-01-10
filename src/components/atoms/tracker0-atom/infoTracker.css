@@ -15,7 +15,7 @@
   align-items: center;
 }
 
-h5 {
+.title-container h5 {
   color: #1a1662;
   font-size: 1rem;
   margin-left: 0.625rem;

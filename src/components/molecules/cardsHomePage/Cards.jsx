@@ -4,8 +4,6 @@ import breathing from "../../../assets/img/breathing.svg"
 import lungs from "../../../assets/img/pulmones.png"
 import cough from "../../../assets/img/covid.svg"
 import Carousel from 'react-bootstrap/Carousel';
-import React from 'react'
-
 
 const Cards = () => {
     return (

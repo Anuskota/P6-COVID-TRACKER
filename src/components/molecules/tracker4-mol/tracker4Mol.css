@@ -1,11 +1,11 @@
-/* 
+
 .tracker4-container{
     display: flex;
     flex-direction: column;
-  
+    height: 100vh;
     gap: 1.5rem;
     margin-left: 31.25rem;
-    background: #F7F8FC;
+    background-color: #F7F8FC;
     padding: 0.625rem 1.25rem;
     flex-wrap: wrap;
 }
@@ -36,11 +36,15 @@
   } 
 
   @media screen and (max-width: 1199px) {
-    .tracker4-container, h1 {
+    .tracker4-container {
+        margin-left: 6.25rem;
+    }
+
+    .tracker4-container h1 {
         margin-left: 6.25rem;
     }
 
     .tracker4-row {
         margin-left: -1rem;
     }
-} */
+}
