@@ -5,8 +5,13 @@ import NavbarHome from "../components/molecules/navbarHomePage/NavbarHome";
 
 const Home = () => {
   return (
+<<<<<<< HEAD
     <>
     <NavbarHome/>
+=======
+    <>    
+    <NavbarHome/>  
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
     <Header/>
     <Cards/>
     <Footer/>

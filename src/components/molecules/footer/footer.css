@@ -1,5 +1,6 @@
 .footer-wrapper {
   background-color: #1b2a4e;
+<<<<<<< HEAD
   color: #ffffff;
   line-height: 1.75;
   font-family: "Poppins", sans-serif;
@@ -13,6 +14,13 @@
 .logo-container img {
   padding-bottom: 1rem;
   vertical-align: middle;
+=======
+  width: 100%;
+  color: #ffffff;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Poppins', sans-serif;
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
 }
 
 .higher-footer {
@@ -76,6 +84,7 @@
   color: #515184;
 }
 
+<<<<<<< HEAD
 .lower-footer p a {
   color: #ffffff !important;
 }
@@ -85,3 +94,13 @@
     text-align: center;
   }
 }
+=======
+.lower-footer p a{
+  color: #FFFFFF !important;
+<<<<<<< HEAD
+}
+=======
+}
+ */
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496

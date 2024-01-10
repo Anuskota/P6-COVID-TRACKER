@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .tracker4-container h1 {
     margin-left: 0;
     font-weight: 700;
@@ -9,10 +10,13 @@
     background: #F7F8FC;
 }
 
+=======
+/* 
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
 .tracker4-container{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+  
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
@@ -57,4 +61,4 @@
     .tracker4-row {
         margin-left: -1rem;
     }
-}
+} */

@@ -9,6 +9,7 @@
 >>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 }
 
+<<<<<<< HEAD
 .navbar-nav {
   position: absolute;
   left: 50%;
@@ -31,22 +32,46 @@
   box-shadow: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+=======
+
+
+.btn{
+    padding: 10px 20px !important;
+    min-width: 150px !important;
+    border-radius: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: none;
+    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
 }
 .btn-primary {
   color: #fff;
   background-color: #3639ae;
   border-color: #3639ae;
 }
+<<<<<<< HEAD
 .navbar-collapse {
   flex-grow: 1;
   align-items: center;
 }
+=======
+/* .navbar-collapse{
+    flex-grow: 1;
+    align-items: center;
+    
+} */
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
 
 .navbar ul > li > a {
   font-size: 16px;
   font-weight: 600;
   white-space: nowrap;
 }
+<<<<<<< HEAD
 .dropdown .dropdown-menu {
   width: 100%;
   position: relative;
@@ -68,3 +93,43 @@
 >>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
 
 /*Me quedo aqui tranformando el dropdwn*/
+=======
+.dropdown-home{
+    width: 100%;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px)!important;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+}
+.dropdown-pages{
+    width: 100%;
+    position: relative;
+    transform: translate3d(0px, 0px, 0px)!important;
+    border: none;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    
+}
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu{
+    display: block;  
+    opacity: 1;
+}
+.navbar-toggle{
+    font-size: 50px;
+}
+.navbar-nav .nav-item {
+  margin-right: 50px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496

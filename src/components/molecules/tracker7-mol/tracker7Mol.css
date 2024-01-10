@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .map-container h1 {
   margin-left: 0;
   font-weight: 700;
@@ -8,6 +9,8 @@
   border-bottom: 1px solid #223461;
   background: #f7f8fc;
 }
+=======
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
 
 .map-container {
   height: 30rem;
@@ -18,7 +21,6 @@
 .tracker7-container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   gap: 1.5rem;
   margin-left: 31.25rem;
   background: #f7f8fc;
