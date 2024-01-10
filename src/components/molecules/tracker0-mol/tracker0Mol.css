@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-.tracker0 {
-=======
-/* .tracker0{
->>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
+.tracker0{
     height: 100vh;
     margin-left: 6.25rem;
     width: 25rem;
@@ -47,4 +43,4 @@
     .tracker0 {
         display: none;
     }
-} */
+}

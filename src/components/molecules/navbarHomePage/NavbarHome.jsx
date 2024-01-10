@@ -3,6 +3,7 @@ import logoBlue from "../../../assets/img/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import { NavLink } from "react-router-dom";
 
 const NavbarHome = () => {
   return (
@@ -142,12 +143,13 @@ const NavbarHome = () => {
                       </a>
                     </li>
                     <div className="singin-btn">
-                      <a
+                      <NavLink
+                        to="/tracker0"
                         className="btn btn-primary d-none d-lg-block"
                         role="button"
                       >
                         Tracker
-                      </a>
+                      </NavLink>
                     </div>
                   </ul>
                 </div>

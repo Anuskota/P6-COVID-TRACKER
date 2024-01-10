@@ -73,9 +73,9 @@ const Footer = () => {
       </div>
       <div className="lower-footer">
         <div className="container">
-          <div className="row">
-          <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12"><p>© Copyright 2020. All Rights Reserved</p></div>
-        <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">  <p>Design by<a>DexignZone</a></p></div>
+          <div className="d-flex justify-content-between">
+          <div ><p>© Copyright 2020. All Rights Reserved</p></div>
+        <div>  <p>Design by<a>DexignZone</a></p></div>
           </div>
         </div>      
       </div>
