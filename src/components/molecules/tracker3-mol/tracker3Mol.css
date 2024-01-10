@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 /* 
+=======
+/* body{
+    width: 100vw;
+    overflow: hidden;
+    background: #F7F8FC;
+}
+
+h1 {
+    margin-left: 32rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #0c0c0d;
+    font-size: 1.625rem;
+    border-bottom: 1px solid #223461;
+    background: #F7F8FC;
+}
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
 .tracker3-container{
     display: flex;
  

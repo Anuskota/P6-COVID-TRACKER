@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 body, #root{
     box-sizing: border-box;
     height: 100%;
+=======
+body{
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
     font-family: 'Poppins', sans-serif;
 }
