@@ -1,5 +1,6 @@
 import DropDownButton from "../../atoms/tracker1-atom/dropDownButton";
 import Tracker1Atom from "../../atoms/tracker1-atom/CardDataTracker1";
+import CardDataGlobal from "../../atoms/tracker1-atom/CardDataGlobal";
 import "./tracker1Mol.css";
 import FetchData from "../../../services/FetchData";
 import { useState, useEffect } from "react";
@@ -34,7 +35,9 @@ const Tracker1Mol = () => {
           <Tracker1Atom countryData={selectedCountry}/>
           <div className="map"></div>
         </div>
-        <div>Cards Abajo</div>
+        <div className="tracker1-row">
+          <CardDataGlobal />
+        </div>
       </div>
     </>
   );
