@@ -8,7 +8,7 @@ const NavbarHome = () => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col-xl-12">
+        <div className="col-xl-12 w-100">
           <nav>
             <div className=" navbar navbar-expand-lg bg-body navbar-light bg-light">
               <div className="image-covid col-4 col-lg-4 col-md-6">
