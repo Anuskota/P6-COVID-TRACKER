@@ -1,4 +1,4 @@
-    /* .nav-container{
+    .nav-container{
     position: fixed;
     display: flex;
     box-sizing: border-box;
@@ -13,7 +13,7 @@
 .nav-items-container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     margin: 0;
     margin-top: 1rem;
     padding: 0;
@@ -34,7 +34,7 @@
     animation-timing-function: linear; 
 }
 
-li {
+.nav-items-container li {
     margin: 0;
     padding: 0;
     border-radius: 0.438rem;
@@ -74,4 +74,4 @@ li {
     to {
         transform:rotate(360deg);
     }
-} */
+}

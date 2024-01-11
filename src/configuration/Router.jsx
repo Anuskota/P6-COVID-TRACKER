@@ -16,6 +16,8 @@ function Router() {
         <Route path="/tracker2" element={<Tracker2/>}></Route>
         <Route path="/tracker3" element={<Tracker3/>}></Route>
         <Route path="/tracker4" element={<Tracker4/>}></Route>
+        <Route path="/tracker5" element={<Tracker4/>}></Route>
+        <Route path="/tracker6" element={<Tracker4/>}></Route>
         <Route path="/tracker7" element={<Tracker7/>}></Route>
     </Routes>
 </BrowserRouter>

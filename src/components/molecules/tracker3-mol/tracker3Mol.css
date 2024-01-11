@@ -1,10 +1,9 @@
-/* body{
-    width: 100vw;
-    overflow: hidden;
+.tracker3-container {
+    width: 100%;
     background: #F7F8FC;
 }
 
-h1 {
+.tracker3-container-h1 {
     margin-left: 32rem;
     font-weight: 700;
     padding-top: 3rem;
@@ -15,15 +14,12 @@ h1 {
     background: #F7F8FC;
     
 }
-.tracker3-container{
+.tracker3-row {
     display: flex;
-    height: 100vh;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
-    padding: 0.625rem 1.25rem;
-    overflow-y: auto;
-    overflow: hidden;
+    padding: 0.625rem 1.25rem;  
 }
 
 .tracker3-column h4 {
@@ -47,7 +43,10 @@ h1 {
   } 
 
   @media screen and (max-width: 1199px) {
-    .tracker3-container, h1 {
+    .tracker3-container {
         margin-left: 6.25rem;
     }
-} */
+    .tracker3-container h1 {
+        margin-left: 6.25rem;
+    }
+}
