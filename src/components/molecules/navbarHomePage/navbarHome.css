@@ -1,35 +1,8 @@
-/* /* /* 
-/* .navbar {
-    height: 100px;
-    
-}
-
-.image-covid img{
-    position:absolute;
-}
-
-.btn{
-    padding: 10px 20px !important;
-    min-width: 150px !important;
-    border-radius: 20px;
-    font-size: 16px;
-    vertical-align: middle;
-    cursor: pointer;
-    user-select: none;
-    box-shadow: none;
-    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
-
-
 .btn-primary {
   color: #fff;
   background-color: #3639ae;
   border-color: #3639ae;
 }
-/* .navbar-collapse{
-    flex-grow: 1;
-    align-items: center;
-    
-} */
 
 .navbar ul > li > a {
   font-size: 16px;
@@ -55,8 +28,6 @@
     display: block;  
     opacity: 1;
 } 
-
-/*Me quedo aqui tranformando el dropdwn*/
 
 .dropdown-home{
     width: 100%;
@@ -92,4 +63,4 @@
 
 
 
-
+ 
