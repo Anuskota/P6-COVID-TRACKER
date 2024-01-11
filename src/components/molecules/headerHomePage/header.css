@@ -1,11 +1,3 @@
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-} 
-
 .container-header {
     background-image: linear-gradient(180deg, rgba(63,146,184,1) 0%, rgba(23,38,100,1) 100%);
     width: 100%;
@@ -44,14 +36,6 @@
     border-radius: 30px;
 }
 
-.mt-3 {
-    margin-top: 1rem;
-}
-
-.btn-lg {
-    line-height: 1.5;
-}
-
 .btn-primary {
     border-color: #3639AE;
 }
@@ -65,99 +49,3 @@
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
-
-a {
-    text-decoration: none;
-    outline: none;
-}
-
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
-
-.brand-wrapper {
-    position: relative;
-<<<<<<< HEAD
-    top: -65px;
-<<<<<<< HEAD
-}
-
-.header-brand-container { 
-    width: 80%;
-=======
-} 
- .header-brand-container {
-    display: flex;
-    width: 90%;
->>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
-    margin: auto;
-    padding: 1.25rem;
-    z-index: 1; 
-    /* gap: 4rem; */
-    border-radius: 5px;
-    background-color: #ffffff;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-.brand-container {
-<<<<<<< HEAD
-    display: flex;
-    align-items: center;
-}
-
-.brand {
-=======
->>>>>>> 17dfc8da5caf16459ed6458eb81e5a74e9575de8
-    width: 100%;
-    left: 0;
-    top: -73px;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.brand-wrapper .container .col-sm-12.bg-white {
-    background-color: #fff;
-    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-}
-
-.brand-wrapper .container .col-sm-12 {
-    border-radius: 5px;
-    margin-top: 20px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.brand-wrapper .container .col-sm-12.bg-white img {
-    max-width: 80px;
-}
-
-img {
-    vertical-align: middle;
-    border-style: none;
-}
-<<<<<<< HEAD
-=======
-    width: 100%; 
-} 
->>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
-=======
->>>>>>> 17dfc8da5caf16459ed6458eb81e5a74e9575de8
