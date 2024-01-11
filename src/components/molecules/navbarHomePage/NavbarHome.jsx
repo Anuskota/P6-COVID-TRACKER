@@ -7,15 +7,15 @@ import { NavLink } from "react-router-dom";
 
 const NavbarHome = () => {
   return (
-    <div className="container">
-      <div className="row">
+    <div className="container-fluid">
+      <div className="row d-flex">
         <div className="col-xl-12 w-100">
           <nav>
             <div className=" navbar navbar-expand-lg bg-body navbar-light bg-light">
               <div className="image-covid col-4 col-lg-4 col-md-6">
                 <img className="ms-5 img-fluid" src={logoBlue}></img>
               </div>
-              <div className="col-lg-8 col-md-6">
+              <div className="col-lg-8 col-md-6  text-md-center">
                 <button
                   className="navbar-toggler"
                   type="button"

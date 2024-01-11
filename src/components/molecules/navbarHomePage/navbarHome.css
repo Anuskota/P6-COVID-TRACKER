@@ -12,8 +12,7 @@
 
 .dropdown .dropdown-menu {
   width: 100%;
-  position: relative;
-  transform: translate3d(0px, 250px, 0px) !important;
+  position: relative; 
   border: none;
   transition: opacity 0.3s ease-in-out;
   opacity: 0;
@@ -31,16 +30,15 @@
 
 .dropdown-home{
     width: 100%;
-    position: relative;
-    transform: translate3d(0px, 0px, 0px)!important;
+    position: relative; 
     border: none;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
 }
+
 .dropdown-pages{
     width: 100%;
     position: relative;
-    transform: translate3d(0px, 0px, 0px)!important;
     border: none;
     transition: opacity 0.3s ease-in-out;
     opacity: 0;

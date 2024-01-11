@@ -8,10 +8,10 @@ import greenTurtleBrand from "../../../assets/img/b-6.png"
 const Header = () => {
     return (
         <>
-            <div className=" container-header">
+            <div className="container-fluid container-header">
                 <div className="row justify-content-between align-items-center">
 
-                    <div className="col-xl-6 col-lg-6 col-md-6">
+                    <div className="col-6">
                         <div className="hero-content">
                             <h1>Download the covid app for get latest update</h1>
                             <p>Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold. The corona virus COVID-19 is affecting 210 countries & territories arount the world and 2 international conveyances.</p>
@@ -19,9 +19,9 @@ const Header = () => {
                         </div>
                     </div>
 
-                    <div className="col-xl-6 col-lg-6 col-md-6 text-right">
+                    <div className="col-6 text-right">
                         <div className="hero-img text-right text-md-center">
-                            <img src={mobileApp} alt="Image of the application displayed on a mobile phone" />
+                            <img src={mobileApp} alt="Image of the application displayed on a mobile phone" className="img-fluid" />
                         </div>
                     </div>
 
@@ -29,9 +29,7 @@ const Header = () => {
             </div>
         
         <div className="brand-wrapper">
-            <div className="container">
-                <div className="row">
-                    <div className="col-sm-12 bg-white">
+            <div className="container bg-white">
                         <div className="row">
                             <div className="col-lg-2 col-md-4 col-sm-4 col-6 text-center">
                                 <img src={timeBrand} alt="Time brand" />
@@ -52,8 +50,7 @@ const Header = () => {
                                 <img src={timeBrand} alt="Time brand" />
                             </div>
                         </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         </>
