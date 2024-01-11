@@ -1,0 +1,15 @@
+.container-tracker1{
+    margin-left: 32rem;
+}
+.dropDown-container{
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 1.875rem;
+    padding-bottom: 1rem;
+    
+    display: flex;
+}
+
+
+    
+
