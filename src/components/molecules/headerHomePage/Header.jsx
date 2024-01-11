@@ -8,7 +8,7 @@ import greenTurtleBrand from "../../../assets/img/b-6.png"
 const Header = () => {
     return (
         <>
-            <div className="container container-header">
+            <div className=" container-header">
                 <div className="row justify-content-between align-items-center">
 
                     <div className="col-xl-6 col-lg-6 col-md-6">
