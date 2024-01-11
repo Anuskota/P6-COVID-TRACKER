@@ -76,6 +76,10 @@
 .navbar-nav .nav-item.dropdown:hover .dropdown-menu{
     display: block;  
     opacity: 1;
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 17dfc8da5caf16459ed6458eb81e5a74e9575de8
 }
 .navbar-toggle{
     font-size: 50px;
@@ -83,3 +87,15 @@
 .navbar-nav .nav-item {
   margin-right: 50px; 
 }
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
