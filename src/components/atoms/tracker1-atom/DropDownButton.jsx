@@ -1,8 +1,10 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import PropTypes from "prop-types";
 import "./dropDownButton.css";
+import Select from "react-select";
 
 const DropDownButton = ({ items, onSelect }) => {
+    
     const handleClick = (country) => {
         onSelect(country)
     }
