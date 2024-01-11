@@ -25,6 +25,8 @@ const DropDownButton = ({ items, onSelect }) => {
 
 DropDownButton.propTypes = {
     items: PropTypes.array,
+    onSelect: PropTypes.func
 };
+
 
 export default DropDownButton;

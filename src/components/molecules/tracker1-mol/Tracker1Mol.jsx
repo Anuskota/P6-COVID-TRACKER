@@ -8,15 +8,18 @@ import { useState } from "react";
 const Tracker1Mol = () => {
   const { data: allCountries } = FetchData('countries');
   const [selectedCountry, setSelectedCountry] = useState(null)
-  const handleCountrySelect = allCountries.find((c)=> c.country === setSelectedCountry(selectedCountryData))
-  console.log(allCountries);
-
+  const handleCountrySelect = (country) => {
+    const selectedCountryData = allCountries.find((c) => c.country === country);
+    setSelectedCountry(selectedCountryData)
+    
+  }
   return (
     <>
       <div className="container-tracker1 p-4">
         <div className="dropDown-container d-flex justify-content-between">
           <DropDownButton
             items={allCountries ? allCountries.map((country) => country.country) : []}
+            onSelect={handleCountrySelect}
           />
           <h6>Updated: June 5, 2022</h6>
         </div>
