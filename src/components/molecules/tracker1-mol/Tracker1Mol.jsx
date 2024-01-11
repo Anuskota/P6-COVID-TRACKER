@@ -2,12 +2,19 @@ import DropDownButton from "../../atoms/tracker1-atom/dropDownButton";
 import Tracker1Atom from "../../atoms/tracker1-atom/CardDataTracker1";
 import "./tracker1Mol.css";
 import FetchData from "../../../services/FetchData";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 
 const Tracker1Mol = () => {
   const { data: allCountries } = FetchData('countries');
   const [selectedCountry, setSelectedCountry] = useState(null)
+  
+  useEffect(() => {
+    if (allCountries && allCountries.length > 0) {
+      setSelectedCountry(allCountries[0]);
+    }
+  }, [allCountries]);
+  
   const handleCountrySelect = (country) => {
     const selectedCountryData = allCountries.find((c) => c.country === country);
     setSelectedCountry(selectedCountryData)
