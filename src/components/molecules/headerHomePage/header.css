@@ -4,6 +4,10 @@
     height: 100%;
 }
 
+.hero-content {
+    margin: 2rem;
+}
+
 .hero-content h1 {
     color: #ffffff;
     font-weight: bold;

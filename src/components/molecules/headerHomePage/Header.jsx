@@ -11,17 +11,17 @@ const Header = () => {
             <div className="container-fluid container-header">
                 <div className="row justify-content-between align-items-center">
 
-                    <div className="col-6">
-                        <div className="hero-content">
+                    <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-md-center text-sm-center text-xs-cente">
+                        <div className="hero-content h-75">
                             <h1>Download the covid app for get latest update</h1>
                             <p>Human coronaviruses are common and are typically associated with mild illnesses, similar to the common cold. The corona virus COVID-19 is affecting 210 countries & territories arount the world and 2 international conveyances.</p>
                             <a href="#" className="btn btn-primary btn-lg mt-3">How To Protect</a>
                         </div>
                     </div>
 
-                    <div className="col-6 text-right">
+                    <div className="text-right col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-md-center text-sm-center text-xs-center">
                         <div className="hero-img text-right text-md-center">
-                            <img src={mobileApp} alt="Image of the application displayed on a mobile phone" className="img-fluid" />
+                            <img src={mobileApp} alt="Image of the application displayed on a mobile phone" className="img-fluid p-2" />
                         </div>
                     </div>
 
