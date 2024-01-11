@@ -1,20 +1,5 @@
-.tracker3-container {
-    width: 100%;
-    background: #F7F8FC;
-}
-
-.tracker3-container-h1 {
-    margin-left: 32rem;
-    font-weight: 700;
-    padding-top: 3rem;
-    padding-bottom: 1rem;
-    color: #0c0c0d;
-    font-size: 1.625rem;
-    border-bottom: 1px solid #223461;
-    background: #F7F8FC;
-    
-}
-.tracker3-row {
+/* 
+.tracker3-container{
     display: flex;
     gap: 1.5rem;
     margin-left: 31.25rem;
