@@ -7,10 +7,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-.higher-footer {
-  border-bottom: 1px solid #223461;
-}
-
 .icons-list {
   display: flex;
   list-style: none;
@@ -67,6 +63,7 @@
   background: #1b2a4e;
   color: #515184;
   width: 100%;
+  border-top: 1px solid #223461;  
 }
 
 .lower-footer p a {
