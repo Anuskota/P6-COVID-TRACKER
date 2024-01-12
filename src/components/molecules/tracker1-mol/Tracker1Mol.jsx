@@ -22,6 +22,7 @@ const Tracker1Mol = () => {
     setSelectedCountry(selectedCountryData)
     
   }
+  
   return (
     <>
       <div className="container-tracker1 p-4">
@@ -34,10 +35,8 @@ const Tracker1Mol = () => {
           <h6>Updated: June 5, 2022</h6>
         </div>
         <div>
-          <Tracker1Atom countryData={selectedCountry}/>
-          <div className="map">
-            {/* <Map></Map> */}
-          </div>
+          <Tracker1Atom countryData={selectedCountry} />
+          <div className="map">{/* <Map></Map> */}</div>
         </div>
         <div className="tracker1-row">
           <CardDataGlobal />
