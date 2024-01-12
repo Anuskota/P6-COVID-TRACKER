@@ -22,8 +22,7 @@ const Tracker4Mol = () => {
   }
 
   return (
-    <>
-      
+    <>      
       <div className="tracker4-container">
       <h1>Covid-19 Country Wise - Tabs</h1>
         <div className="tracker4-row">

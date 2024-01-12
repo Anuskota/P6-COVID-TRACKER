@@ -1,30 +1,43 @@
 import DropDownButton from "../../atoms/tracker1-atom/dropDownButton";
 import Tracker1Atom from "../../atoms/tracker1-atom/CardDataTracker1";
+import CardDataGlobal from "../../atoms/tracker1-atom/CardDataGlobal";
 import "./tracker1Mol.css";
 import FetchData from "../../../services/FetchData";
+import { useState, useEffect } from "react";
 
 
 const Tracker1Mol = () => {
-  const allCountries = FetchData("countries")
-  console.log(allCountries.data.country)
+  const { data: allCountries } = FetchData('countries');
+  const [selectedCountry, setSelectedCountry] = useState(null)
+  
+  useEffect(() => {
+    if (allCountries && allCountries.length > 0) {
+      setSelectedCountry(allCountries[0]);
+    }
+  }, [allCountries]);
+  
+  const handleCountrySelect = (country) => {
+    const selectedCountryData = allCountries.find((c) => c.country === country);
+    setSelectedCountry(selectedCountryData)
+    
+  }
   return (
     <>
-      <div className="container-tracker1 p-4 ">
+      <div className="container-tracker1 p-4">
         <div className="dropDown-container d-flex justify-content-between">
-          <DropDownButton>
-          {allCountries.map((item, index) => (
-            <Dropdown.Item
-              key={index}
-            >{item.country}</Dropdown.Item>
-          ))}
-        </DropDownButton>
+          <DropDownButton
+            items={allCountries ? allCountries.map((country) => country.country) : []}
+            onSelect={handleCountrySelect}
+          />
           <h6>Updated: June 5, 2022</h6>
         </div>
         <div>
-          <Tracker1Atom></Tracker1Atom>
+          <Tracker1Atom countryData={selectedCountry}/>
           <div className="map"></div>
         </div>
-        <div>Cards Abajo </div>
+        <div className="tracker1-row">
+          <CardDataGlobal />
+        </div>
       </div>
     </>
   );
