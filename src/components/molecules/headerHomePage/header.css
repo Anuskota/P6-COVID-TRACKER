@@ -1,6 +1,11 @@
 .container-header {
     background-image: linear-gradient(180deg, rgba(63,146,184,1) 0%, rgba(23,38,100,1) 100%);
     width: 100%;
+    height: 100%;
+}
+
+.hero-content {
+    margin: 2rem;
 }
 
 .hero-content h1 {
@@ -17,16 +22,10 @@
     color: #ffffff;
     margin-top: 0;
     margin-bottom: 1rem;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
-.app-banner .btn-lg {
-    padding: 20px 50px;
+.app-banner {
     color: #fff;
     background-color: #121158;
     font-weight: 600;
@@ -47,5 +46,8 @@
     cursor: pointer;
     user-select: none;
     border-radius: 0.25rem;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out;
+    background-color: 0.15s ease-in-out;
+     border-color: 0.15s ease-in-out;
+     box-shadow: 0.15s ease-in-out;
 }
