@@ -29,6 +29,7 @@ const Tracker1Mol = () => {
           <DropDownButton
             items={allCountries ? allCountries.map((country) => country.country) : []}
             onSelect={handleCountrySelect}
+            selectedCountry={selectedCountry}
           />
           <h6>Updated: June 5, 2022</h6>
         </div>
