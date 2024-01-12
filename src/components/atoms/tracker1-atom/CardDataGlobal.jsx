@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-// import "./cardDataGlobal.css";
+import "./cardDataGlobal.css";
 import covidDefault from "../../../assets/img/covid-defult.svg";
 import covidGreen from "../../../assets/img/covid-green.svg";
 import covidRed from "../../../assets/img/covid-red.svg";

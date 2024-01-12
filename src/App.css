@@ -1,9 +1,15 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 body, #root{
     box-sizing: border-box;
     height: 100%;
 =======
 body{
 >>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
+=======
+body, #root{
+    box-sizing: border-box;
+    height: 100%;
+>>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
     font-family: 'Poppins', sans-serif;
 }
