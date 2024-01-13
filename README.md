@@ -71,31 +71,30 @@ It is the exact reproduction of a React-based web application that allows users 
    - CHENGE TO THE NEWLY CREATED PROJECT DIRECTORY: 
 
 
-     "cd proyect-name"
+            "cd proyect-name"
 
-- INSTALL GLOBAL VITE: 
+   - INSTALL GLOBAL VITE: 
 
+        "npm install -g create-vite"
 
-  "npm install -g create-vite"
+   - CREATE A NEW VITE PROJECT:
 
- - CREATE A NEW VITE PROJECT:
+         "create-vite proyect-name"
 
-   "create-vite proyect-name"
-
-- INSTALL BOOTSTRAP:
+   - INSTALL BOOTSTRAP:
   
-  "npm install bootstrap"
-- INPORT IN YOUR JSX FILE:
+        "npm install bootstrap"
+   - INPORT IN YOUR JSX FILE:
 
-  "import 'bootstrap/dist/css/bootstrap.min.css'"
+        "import 'bootstrap/dist/css/bootstrap.min.css'"
 
-- INSTALL THE FONTS DEPENDENCIES:
+   - INSTALL THE FONTS DEPENDENCIES:
 
-  "npm install --save @fortawesome/fontawesome-free"
+        "npm install --save @fortawesome/fontawesome-free"
 
-  -IMPORT IN YOUR JSX FILE :
+   -IMPORT IN YOUR JSX FILE :
 
-   "import '@fortawesome/fontawesome-free/css/all.min.css'"
+        "import '@fortawesome/fontawesome-free/css/all.min.css'"
 
 <h2>📑 5. Api Used</h2>
 
