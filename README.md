@@ -94,7 +94,7 @@ It is the exact reproduction of a React-based web application that allows users 
 
             "npm install --save @fortawesome/fontawesome-free"
 
-   -IMPORT IN YOUR JSX FILE :
+   - IMPORT IN YOUR JSX FILE :
 
         "import '@fortawesome/fontawesome-free/css/all.min.css'"
 
