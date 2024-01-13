@@ -6,12 +6,11 @@ const jsonUrl = "https://unpkg.com/world-atlas@2.0.2/countries-50m.json";
 
 const Map = () => {
   const [mapData, setMapData] = useState(null);
-  console.log(mapData);
 
   useEffect(() => {
-    json(jsonUrl).then(topojsonData => {
-      const {countries} = topojsonData.objects;
-      setMapData(feature(topojsonData, countries))
+    json(jsonUrl).then((topojsonData) => {
+      const { countries } = topojsonData.objects;
+      setMapData(feature(topojsonData, countries));
     });
   }, []);
 

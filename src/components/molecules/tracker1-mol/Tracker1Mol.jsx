@@ -13,7 +13,9 @@ const Tracker1Mol = () => {
   const map = Map();
 
   const { data: allCountries } = FetchData("countries");
+  console.log(allCountries); 
   const [selectedCountry, setSelectedCountry] = useState(null);
+  
 
   useEffect(() => {
     if (allCountries && allCountries.length > 0) {
@@ -41,7 +43,7 @@ const Tracker1Mol = () => {
           <Tracker1Atom countryData={selectedCountry} />
           <div className="map">
             <svg width={width} height={heigth}>
-              <Marks data={map} />
+              <Marks mapData={map} />
             </svg>
           </div>
         </div>
