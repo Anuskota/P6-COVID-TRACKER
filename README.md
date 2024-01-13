@@ -86,11 +86,11 @@ It is the exact reproduction of a React-based web application that allows users 
         "npm install bootstrap"
    - INPORT IN YOUR JSX FILE:
 
-        "import 'bootstrap/dist/css/bootstrap.min.css'"
+            "import 'bootstrap/dist/css/bootstrap.min.css'"
 
    - INSTALL THE FONTS DEPENDENCIES:
 
-        "npm install --save @fortawesome/fontawesome-free"
+            "npm install --save @fortawesome/fontawesome-free"
 
    -IMPORT IN YOUR JSX FILE :
 
