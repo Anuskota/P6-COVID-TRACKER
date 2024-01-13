@@ -23,8 +23,10 @@ const Tracker1Mol = () => {
 
   const handleCountrySelect = (country) => {
     const selectedCountryData = allCountries.find((c) => c.country === country);
-    setSelectedCountry(selectedCountryData);
-  };
+    setSelectedCountry(selectedCountryData)
+    
+  }
+  
   return (
     <>
       <div className="container-tracker1 p-4">
@@ -34,16 +36,13 @@ const Tracker1Mol = () => {
               allCountries ? allCountries.map((country) => country.country) : []
             }
             onSelect={handleCountrySelect}
+            selectedCountry={selectedCountry}
           />
           <h6>Updated: June 5, 2022</h6>
         </div>
         <div>
           <Tracker1Atom countryData={selectedCountry} />
-          <div className="map">
-            <svg width={width} height={heigth}>
-              <Marks data={data} />
-            </svg>
-          </div>
+          <div className="map">{/* <Map></Map> */}</div>
         </div>
         <div className="tracker1-row">
           <CardDataGlobal />
