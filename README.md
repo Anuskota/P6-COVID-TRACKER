@@ -75,11 +75,11 @@ It is the exact reproduction of a React-based web application that allows users 
 
    - INSTALL GLOBAL VITE: 
 
-        "npm install -g create-vite"
+            "npm install -g create-vite"
 
    - CREATE A NEW VITE PROJECT:
 
-         "create-vite proyect-name"
+             "create-vite proyect-name"
 
    - INSTALL BOOTSTRAP:
   
