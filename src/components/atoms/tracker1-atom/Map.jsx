@@ -1,20 +1,21 @@
-import { select, json, geoPath, geoNaturalEarth1 } from 'd3';
-import { feature } from 'topojson';
+import { useState, useEffect } from "react";
+import { json } from "d3";
+import { feature } from "topojson-client";
 
-const svg = select('svg');
+const jsonUrl = "https://unpkg.com/world-atlas@2.0.2/countries-50m.json";
 
-const projection = geoNaturalEarth1();
-const pathGenerator = geoPath().projection(projection);
+const Map = () => {
+  const [data, setData] = useState(null);
+  console.log(data);
 
-svg.append('path')
-    .attr('class', 'sphere')
-    .attr('d', pathGenerator({type: 'Sphere'}));
+  useEffect(() => {
+    json(jsonUrl).then(topojsonData => {
+      const {countries} = topojsonData.objects;
+      setData(feature(topojsonData, countries))
+    });
+  }, []);
 
-json('https://unpkg.com/world-atlas@1.1.4/world/110m.json')
-  .then(data => {
-    const countries = feature(data, data.objects.countries);
-    svg.selectAll('path').data(countries.features)
-      .enter().append('path')
-        .attr('class', 'country')
-        .attr('d', pathGenerator);
-  });
+  return data;
+};
+
+export default Map;
