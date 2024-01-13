@@ -42,6 +42,10 @@ const Tracker1Mol = () => {
         <div>
           <Tracker1Atom countryData={selectedCountry} />
           <div className="map">
+          <div className="container-button-map">
+          <button className="zoom-in-button">+</button>
+          <button className="zoom-out-button">-</button>         
+          </div>         
             <svg width={width} height={heigth}>
               <Marks mapData={map} />
             </svg>

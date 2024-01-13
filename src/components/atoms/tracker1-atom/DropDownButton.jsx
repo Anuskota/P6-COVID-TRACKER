@@ -14,7 +14,6 @@ const DropDownButton = ({ items, onSelect,selectedCountry }) => {
             <Dropdown.Toggle variant="success" id="dropdown-basic">
                 {selectedCountry ? selectedCountry.country : "Afghanistan"}
             </Dropdown.Toggle>
-
             <Dropdown.Menu className="dropdownMenu">
                 {items.map((item, index) => (
                 <Dropdown.Item key={index} onClick={() => handleClick(item)}>
