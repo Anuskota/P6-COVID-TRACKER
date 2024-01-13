@@ -83,7 +83,9 @@ It is the exact reproduction of a React-based web application that allows users 
 
    - INSTALL BOOTSTRAP:
   
-        "npm install bootstrap"
+        
+             "npm install bootstrap"
+
    - INPORT IN YOUR JSX FILE:
 
             "import 'bootstrap/dist/css/bootstrap.min.css'"
