@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { geoEqualEarth, geoPath } from "d3";
 
 const projection = geoEqualEarth();
