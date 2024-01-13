@@ -10,7 +10,7 @@ import Marks from "../../atoms/tracker1-atom/Marks";
 const Tracker1Mol = () => {
   const width = 960;
   const heigth = 500;
-  const data = Map();
+  const map = Map();
 
   const { data: allCountries } = FetchData("countries");
   const [selectedCountry, setSelectedCountry] = useState(null);
@@ -42,7 +42,11 @@ const Tracker1Mol = () => {
         </div>
         <div>
           <Tracker1Atom countryData={selectedCountry} />
-          <div className="map">{/* <Map></Map> */}</div>
+          <div className="map">
+            <svg width={width} height={heigth}>
+              <Marks data={map} />
+            </svg>
+          </div>
         </div>
         <div className="tracker1-row">
           <CardDataGlobal />
