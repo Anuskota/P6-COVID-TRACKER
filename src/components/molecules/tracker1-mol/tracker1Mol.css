@@ -1,23 +1,58 @@
 .container-tracker1{
-    margin-left: 32rem;
+    margin-left: 31rem;
+    background-color: #F7F8FC;
+    margin-right: 0;
+}
+
+.cards-container{
+    display: flex;
 }
 .dropDown-container{
-    width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     margin-bottom: 1.875rem;
     padding-bottom: 1rem;
-    
     display: flex;
 }
 
+.marks path {
+    fill: #3639AE;
+}
+
+.container-button-map{
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.zoom-in-button, .zoom-out-button {
+    background-color: #3639AE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0.50rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.map {
+background-color: white;
+padding: 1rem;
+margin-left: 1rem;
+}
 
 .tracker1-row {
     display: flex;
     justify-content: center;
     gap: 0.5rem;
-    width: 100%;
+    margin-top: 2rem;
 }
 
-
-    
-
+@media screen and (max-width: 1199px) {
+    .container-tracker1 {
+        margin-left: 6.25rem;
+    }
+ 
+}

@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 body, #root{
     box-sizing: border-box;
     height: 100%;
@@ -11,5 +12,10 @@ body, #root{
     box-sizing: border-box;
     height: 100%;
 >>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+=======
+body{
+>>>>>>> 8fd18a110098072928b7ddafb44d7dacea960259
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
 }
