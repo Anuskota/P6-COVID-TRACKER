@@ -29,12 +29,13 @@ It is the exact reproduction of a React-based web application that allows users 
 
 <h2>🖼️2. ScreenShots</h2>
 
+![Alt text](<src/assets/img/Captura de pantalla 2024-01-13 101529.png>)
 
-![Alt text](<Captura de pantalla 2024-01-13 101529.png>)
+![Alt text](<src/assets/img/Captura de pantalla 2024-01-13 101600.png>)
 
-![Alt text](<Captura de pantalla 2024-01-13 101702.png>)
+![Alt text](<src/assets/img/Captura de pantalla 2024-01-13 101702.png>)
 
-![Alt text](<Captura de pantalla 2024-01-13 101600.png>)
+
 
 
 <h2>🛰️3. Techonologies Used</h2>
