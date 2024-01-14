@@ -1,12 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+/* 
 =======
 /* body{
     width: 100vw;
     overflow: hidden;
+=======
+<<<<<<< HEAD
+.tracker3-container {
+    width: 100%;
+>>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
     background: #F7F8FC;
 }
 
-h1 {
+.tracker3-container-h1 {
     margin-left: 32rem;
     font-weight: 700;
     padding-top: 3rem;
@@ -16,8 +23,18 @@ h1 {
     border-bottom: 1px solid #223461;
     background: #F7F8FC;
 }
->>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1
+<<<<<<< HEAD
+>>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
+=======
+.tracker3-row {
+=======
+/* 
+>>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
 .tracker3-container{
+>>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+=======
+.tracker3-container{
+>>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
     display: flex;
     flex-direction: column;
     gap: 1.5rem;

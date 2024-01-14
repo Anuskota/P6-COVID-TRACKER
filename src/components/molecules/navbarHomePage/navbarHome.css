@@ -1,3 +1,62 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+.navbar {
+  height: 100px;
+=======
+
+/* .navbar {
+    height: 100px;
+    
+>>>>>>> ca4ddc2a1a8a73bf25746a87ea01f03339a73f44
+}
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+.navbar-nav {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  font-family: sans-serif;
+  z-index: 999;
+}
+.image-covid {
+  color: #3639ae;
+}
+
+.btn {
+  padding: 10px 20px !important;
+  min-width: 150px !important;
+  border-radius: 20px;
+  font-size: 16px;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+=======
+
+=======
+.image-covid img{
+    position:absolute;
+}
+>>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+
+.btn{
+    padding: 10px 20px !important;
+    min-width: 150px !important;
+    border-radius: 20px;
+    font-size: 16px;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: none;
+    /* transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; */
+
+>>>>>>> 6331c38f3750e75a473d82317c836aee2964a496
+}
+=======
+>>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
 .btn-primary {
   color: #fff;
   background-color: #3639ae;
