@@ -1,19 +1,21 @@
 .tracker2-container {
     display: flex;
+    flex-direction: column;
     gap: 1.5rem;
-    margin-left: 31.25rem;
+    margin-left: 31.25rem; 
     background: #F7F8FC;
     padding: 0.625rem 1.25rem;
+    width: calc(100% - 31.25rem);
+    flex: 1; 
 }
 
 .tracker2-container h1 {
-    margin-left: 32rem;
     font-weight: 700;
     padding-top: 3rem;
     padding-bottom: 1rem;
-    color: #0c0c0d;
+    color: #121158;
     font-size: 1.625rem;
-    border-bottom: 1px solid #223461;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.456);
     background: #F7F8FC;
 }
 
