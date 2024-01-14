@@ -1,0 +1,19 @@
+.dropdownMenu{
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+
+#dropdown-basic{
+    background-color: white;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.25rem;
+}

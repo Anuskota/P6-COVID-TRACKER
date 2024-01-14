@@ -52,7 +52,7 @@ function CardData({ countryData }) {
         ) : (
           <h1>No country selected</h1>
         )}
-      </div>
+    </div> 
     </>
   );
 }

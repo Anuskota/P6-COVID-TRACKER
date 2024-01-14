@@ -1,33 +1,35 @@
 import Dropdown from "react-bootstrap/Dropdown";
 import PropTypes from "prop-types";
 import "./dropDownButton.css";
-// import Select from "react-select";
 
-const DropDownButton = ({ items, onSelect }) => {
+const DropDownButton = ({ items, onSelect,selectedCountry }) => {
     
     const handleClick = (country) => {
-        onSelect(country)
+        onSelect(country);
+
     }
     return (
         <>
-        <Dropdown className="country-dropdown">
+            <Dropdown className="country-dropdown">
             <Dropdown.Toggle variant="success" id="dropdown-basic">
-            Afghanistan
+                {selectedCountry ? selectedCountry.country : "Afghanistan"}
             </Dropdown.Toggle>
-
-            <Dropdown.Menu>
-            {items.map((item, index) => (
-                <Dropdown.Item key={index} onClick={() => handleClick(item)}>{item}</Dropdown.Item>
-            ))}
+            <Dropdown.Menu className="dropdownMenu">
+                {items.map((item, index) => (
+                <Dropdown.Item key={index} onClick={() => handleClick(item)}>
+                    {item}
+                </Dropdown.Item>
+                ))}
             </Dropdown.Menu>
-        </Dropdown>
+            </Dropdown>
         </>
     );
 };
 
 DropDownButton.propTypes = {
     items: PropTypes.array,
-    onSelect: PropTypes.func
+    onSelect: PropTypes.func,
+    selectedCountry:PropTypes.object,
 };
 
 
