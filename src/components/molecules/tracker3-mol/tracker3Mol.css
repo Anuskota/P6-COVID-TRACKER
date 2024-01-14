@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .tracker3-container {
     width: 100%;
     background: #F7F8FC;
@@ -20,6 +21,9 @@
 /* 
 .tracker3-container{
 >>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+=======
+.tracker3-container{
+>>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
     display: flex;
     gap: 1.5rem;
     margin-left: 31.25rem;
@@ -54,4 +58,4 @@
     .tracker3-container h1 {
         margin-left: 6.25rem;
     }
-}
+} 

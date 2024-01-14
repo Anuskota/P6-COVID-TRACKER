@@ -6,7 +6,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 const Footer = () => {
   return (
     <footer className="footer-wrapper">
-      <div className="container p-5 higher-footer">
+      <div className="container p-5">
         <div className="row">
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-8 logo-container">
             <div>
@@ -74,8 +74,8 @@ const Footer = () => {
       <div className="lower-footer">
         <div className="container">
           <div className="d-flex justify-content-between">
-          <div ><p>© Copyright 2020. All Rights Reserved</p></div>
-        <div>  <p>Design by<a>DexignZone</a></p></div>
+          <div ><p className="pt-2">© Copyright 2020. All Rights Reserved</p></div>
+        <div>  <p className="pt-2">Design by<a>DexignZone</a></p></div>
           </div>
         </div>      
       </div>

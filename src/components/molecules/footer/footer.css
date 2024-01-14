@@ -1,18 +1,17 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .footer-wrapper {
 =======
 footer {
 >>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+=======
+footer {
+>>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
   background-color: #1b2a4e;
-  width: 100%;
   color: #ffffff;
   display: flex;
   flex-wrap: wrap;
   font-family: 'Poppins', sans-serif;
-}
-
-.higher-footer {
-  border-bottom: 1px solid #223461;
 }
 
 .icons-list {
@@ -71,6 +70,7 @@ footer {
   background: #1b2a4e;
   color: #515184;
   width: 100%;
+  border-top: 1px solid #223461;  
 }
 
 .lower-footer p a {
@@ -87,7 +87,11 @@ footer {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 }
 =======
 >>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
+=======
+}
+>>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac

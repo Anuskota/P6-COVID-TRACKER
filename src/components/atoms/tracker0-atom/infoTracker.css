@@ -65,39 +65,37 @@
 }
 
 .active-case-card {
-    background-color: #FFF9F1;
-  }
-  
-  .active-case-card h6 {
-    color: #FF6A07;
-  }
-  
-  .active-case-card:hover {
-    border: 2px solid #FF6A07;
-  }
-  
-  
+  background-color: #fff9f1;
+}
+
+.active-case-card h6 {
+  color: #ff6a07;
+}
+
+.active-case-card:hover {
+  border: 2px solid #ff6a07;
+}
+
 .recovered-case-card {
-    background-color: #EDFFEC;
-  }
-  
-  .recovered-case-card h6 {
-    color: #82C519;
-  }
-  
-  .recovered-case-card:hover {
-    border: 2px solid #82C519;
-  }  
-    
+  background-color: #edffec;
+}
+
+.recovered-case-card h6 {
+  color: #82c519;
+}
+
+.recovered-case-card:hover {
+  border: 2px solid #82c519;
+}
+
 .deaths-case-card {
-    background-color: #EEFBFF;
-  }
-  
-  .deaths-case-card h6 {
-    color: #3639AE;
-  }
-  
-  .deaths-case-card:hover {
-    border: 2px solid #3639AE;
-  }
-  
+  background-color: #eefbff;
+}
+
+.deaths-case-card h6 {
+  color: #3639ae;
+}
+
+.deaths-case-card:hover {
+  border: 2px solid #3639ae;
+}
