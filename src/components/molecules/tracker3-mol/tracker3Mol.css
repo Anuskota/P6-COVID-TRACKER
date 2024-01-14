@@ -7,6 +7,16 @@
     padding: 0.625rem 1.25rem;  
 }
 
+.tracker3-container h1{
+    font-weight: 650;
+    font-size: 1.75rem;
+    color: #121158;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
 .tracker3-column h4 {
     font-weight: 600;
     font-size: 1.125rem;
