@@ -1,20 +1,4 @@
-.carousel {
-  background-color: #171133;}
 
-.carousel-item {
-  background-color: #fff;
-  width: 300px;
-  margin-right: 25px;
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-}
 
-.container-carousel {
-  width: 100px;
-  height: 100px;
-}
 
-.container-carousel img {
 
-}

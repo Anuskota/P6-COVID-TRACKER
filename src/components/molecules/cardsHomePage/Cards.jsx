@@ -12,7 +12,7 @@ const Cards = () => {
                 <Carousel.Item className="carousel-item">
                     <div className="container-carousel">
                         <img
-                            className="d-block w-100"
+                            className="d-block "
                             src={fever}
                             alt="First slide"
                         />
@@ -25,7 +25,7 @@ const Cards = () => {
                 <Carousel.Item className="carousel-item">
                     <div className="container-carousel">
                         <img
-                            className="d-block w-100"
+                            className="d-block w-100."
                             src={breathing}
                             alt="Second slide"
                         />
