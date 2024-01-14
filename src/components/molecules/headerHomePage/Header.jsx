@@ -8,7 +8,7 @@ import greenTurtleBrand from "../../../assets/img/b-6.png"
 const Header = () => {
     return (
         <>
-            <div className="container container-header w-100">
+            <div className="container-fluid container-header w-100">
                 <div className="row justify-content-between align-items-center">
 
                     <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 text-md-center text-sm-center text-xs-cente">
@@ -28,7 +28,7 @@ const Header = () => {
                 </div>
             </div>
         
-        <div className="brand-wrapper">
+        <div className="brand-wrapper d-flex justify-content-center">
             <div className="container bg-white ">
                         <div className="row">
                             <div className="col-lg-2 col-md-4 col-sm-4 col-6 text-center">

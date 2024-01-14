@@ -32,19 +32,7 @@
     flex-wrap: wrap;
 }
 
-::-webkit-scrollbar {
-    position: relative;
-    top: 0px;
-    float: right;
-    width: 3px;
-    height: 655px;
-    background-color: rgb(238, 238, 238);
-    border: 0px solid rgb(255, 255, 255);
-    background-clip: padding-box;
-    border-radius: 5px;
-  } 
-
-  @media screen and (max-width: 1199px) {
+ @media screen and (max-width: 1199px) {
     .tracker4-container {
         margin-left: 6.25rem;
     }

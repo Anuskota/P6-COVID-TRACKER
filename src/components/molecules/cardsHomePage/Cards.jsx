@@ -4,8 +4,6 @@ import fever from "../../../assets/img/fever.svg";
 import breathing from "../../../assets/img/breathing.svg";
 import lungs from "../../../assets/img/pulmones.png";
 import cough from "../../../assets/img/covid.svg";
-import { Container } from "react-bootstrap";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -23,8 +21,9 @@ const Cards = () => {
     };
 
     return (
-        <Container className="container-carrusel">
-        <div className="titles">
+        <div className="container-fluid container-carrusel">
+        <div className="row">
+           <div className="titles">
             <h5>Symptom</h5>
             <h1>
             Basic Symptom Against <br />
@@ -79,8 +78,9 @@ const Cards = () => {
                 difficulty breadring/shortness of breath.
             </p>
             </div>
-        </Slider>
-        </Container>
+        </Slider>      
+        </div> 
+        </div>
     );
 };
 

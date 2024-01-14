@@ -1,20 +1,11 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* 
-=======
-/* body{
-    width: 100vw;
-    overflow: hidden;
-=======
-<<<<<<< HEAD
+
 .tracker3-container {
     width: 100%;
->>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
+
     background: #F7F8FC;
 }
 
-.tracker3-container-h1 {
-    margin-left: 32rem;
+.tracker3-container h1 {
     font-weight: 700;
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -22,35 +13,16 @@
     font-size: 1.625rem;
     border-bottom: 1px solid #223461;
     background: #F7F8FC;
+
 }
-<<<<<<< HEAD
->>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
-=======
-.tracker3-row {
-=======
-/* 
->>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
 .tracker3-container{
->>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
-=======
-.tracker3-container{
->>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
+
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
     padding: 0.625rem 1.25rem;  
-}
-
-.tracker3-container h1{
-    font-weight: 650;
-    font-size: 1.75rem;
-    color: #121158;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
 }
 
 .tracker3-column h4 {
@@ -61,27 +33,12 @@
     margin-bottom: 1rem;
 }
 
-::-webkit-scrollbar {
-    position: relative;
-    top: 0px;
-    float: right;
-    width: 3px;
-    height: 655px;
-    background-color: rgb(238, 238, 238);
-    border: 0px solid rgb(255, 255, 255);
-    background-clip: padding-box;
-    border-radius: 5px;
-  } 
-
   @media screen and (max-width: 1199px) {
     .tracker3-container {
         margin-left: 6.25rem;
     }
-<<<<<<< HEAD
+
     .tracker3-container h1 {
         margin-left: 6.25rem;
     }
 } 
-=======
-} */
->>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1
