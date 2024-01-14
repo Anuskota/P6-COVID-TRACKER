@@ -5,11 +5,10 @@ import { FilterMatchMode, FilterOperator } from 'primereact/api';
 import { InputText } from 'primereact/inputtext';
 import './tracker2Mol.css';
 import FetchData from '../../../services/FetchData';
+import "./tracker2Mol.css"
 
 export default function Tracker2Mol() {
   const { data, error } = FetchData('countries');
-
-
 
   return (
     <div className="tracker2-container">
@@ -18,8 +17,9 @@ export default function Tracker2Mol() {
           <h1>Error fetching data</h1>
         ) : data ? (
           <DataTable value={data} paginator className="p-datatable-customers" rows={10}
-          paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown" rowsPerPageOptions={[10,25,50]}
+          paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown" rowsPerPageOptions={[10,25,50, 100]}
           dataKey="id" rowHover filterDisplay="menu"
+          responsiveLayout="scroll"
           globalFilterFields={['country']} emptyMessage="No country found."
           currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
             <Column field="flag" header="Flag" style={{ minWidth: '14rem' }}></Column>
