@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 body{
     font-family: 'Poppins', sans-serif;
     width: 100%;
     height: 100%;
 }
+=======
+body, #root {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+>>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1

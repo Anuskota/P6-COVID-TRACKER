@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+=======
+/* body{
+    width: 100vw;
+    overflow: hidden;
+    background: #F7F8FC;
+}
+
+h1 {
+    margin-left: 32rem;
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #0c0c0d;
+    font-size: 1.625rem;
+    border-bottom: 1px solid #223461;
+    background: #F7F8FC;
+}
+>>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1
 .tracker3-container{
     display: flex;
     flex-direction: column;
@@ -41,7 +60,11 @@
     .tracker3-container {
         margin-left: 6.25rem;
     }
+<<<<<<< HEAD
     .tracker3-container h1 {
         margin-left: 6.25rem;
     }
 } 
+=======
+} */
+>>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1

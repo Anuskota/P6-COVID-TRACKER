@@ -13,7 +13,10 @@
     "@fortawesome/fontawesome-free": "^6.5.1",
     "bootstrap": "^5.3.2",
     "bootstrap-icons": "^1.11.2",
+<<<<<<< HEAD
     "d3": "^6.7.0",
+=======
+>>>>>>> 01152d25c97bf0a5b182bc71931b64323ca8b8a1
     "primereact": "^10.3.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.2",
