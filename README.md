@@ -105,7 +105,7 @@ It is the exact reproduction of a React-based web application that allows users 
 
   <h2>🦸‍♀️6.Authors</h2>
 
-  <a href="https://github.com/AnaCe-7">@AnaCé
+  <a href="https://github.com/AnaCe-7">@AnaCecilia
 
   <a href="https://github.com/vallefarinha">@Gabriela
 
