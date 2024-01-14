@@ -1,8 +1,24 @@
-# React + Vite
+<h1> COVID TRACKER P6 </h1>
+<h2> FemCoders Norte Bootcamp 🏋️  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![Alt text|100](src/assets/img/coronavirus.png)</h2> 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<h2>🚀 Deployment </h2>
+
+<h4> Deployment Proyect :  </h4>
+
+<h2> 📂Index</h2>
+<h3>1. Description </h3>
+<h3>2. ScreenShots </h3>
+<h3>3. Technologies used </h3>
+<h3>4. Guide of installation </h3>
+<h3>5. Api used
+<h3>6. Biography </h3>
+
+
+
+
+
+

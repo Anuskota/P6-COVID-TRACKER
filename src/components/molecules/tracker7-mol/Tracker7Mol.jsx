@@ -23,8 +23,9 @@ const Tracker7Mol = () => {
 
   return (
     <>
-      <h1>World</h1>
+    
       <div className="map-container">
+      <h1>World</h1>
 <div>MAP HERE</div>
       </div>
       <div className="tracker7-container">
