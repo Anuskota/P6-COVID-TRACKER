@@ -1,4 +1,3 @@
-import React from "react";
 import Slider from "react-slick";
 import "./cards.css";
 import fever from "../../../assets/img/fever.svg";
@@ -14,12 +13,13 @@ const Cards = () => {
     const settings = {
         dots: false,
         infinite: true,
-        speed: 500,
-        slidesToShow: 3, // Muestra 3 tarjetas a la vez
+        speed: 600,
+        slidesToShow: 3,
         slidesToScroll: 1,
-        draggable: true, // Permite arrastrar manualmente
+        draggable: true,
         autoplay: true,
-        autoplaySpeed: 2000, // Cambiado a 2 segundos
+        autoplaySpeed: 2000,
+        easing: 'ease-in-out',
     };
 
     return (

@@ -1,8 +1,6 @@
 .carousel {
   width: 100%; 
- 
  overflow: visible;
-
 }
 
 .carousel-item {
@@ -15,6 +13,8 @@
   padding-left: 25px;
   padding-top: 10px;
   background-color: white;
+  cursor: pointer;
+  border-radius: 0.5rem;
 }   
 .carousel-item h5{
     font-weight:900;
