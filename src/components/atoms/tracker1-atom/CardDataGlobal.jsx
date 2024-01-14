@@ -17,6 +17,7 @@ const CardDataGlobal = () => {
         <h1>Error: {error.message}</h1>
       ) : (
         data && (
+
           <div className="cards-global-container">
             <div className="cardGlobal" key="total-confirmed">
               <img src={covidDefault} alt="coronavirus" />

@@ -1,21 +1,17 @@
 .container-tracker1{
-    margin-left: 32rem;
+    margin-left: 31rem;
     background-color: #F7F8FC;
+    margin-right: 0;
+}
+
+.cards-container{
+    display: flex;
 }
 .dropDown-container{
-    width: 100%;
     border-bottom: 1px solid rgba(0,0,0,0.1);
     margin-bottom: 1.875rem;
     padding-bottom: 1rem;
-    
     display: flex;
-}
-
-.tracker1-row {
-    display: flex;
-    justify-content: center;
-    gap: 0.5rem;
-    width: 100%;
 }
 
 .marks path {
@@ -43,6 +39,20 @@
 
 .map {
 background-color: white;
-padding: 2rem;
-width: 65rem;
+padding: 1rem;
+margin-left: 1rem;
+}
+
+.tracker1-row {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1199px) {
+    .container-tracker1 {
+        margin-left: 6.25rem;
+    }
+ 
 }

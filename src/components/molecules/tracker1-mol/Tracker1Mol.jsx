@@ -39,8 +39,10 @@ const Tracker1Mol = () => {
           />
           <h6>Updated: June 5, 2022</h6>
         </div>
-        <div>
-          <Tracker1Atom countryData={selectedCountry} />
+        <div className="container d-flex">
+          <div className="row">
+            <div className="col-lg-8 d-flex">
+            <Tracker1Atom countryData={selectedCountry}/>
           <div className="map">
           <div className="container-button-map">
           <button className="zoom-in-button">+</button>
@@ -51,6 +53,9 @@ const Tracker1Mol = () => {
             </svg>
           </div>
         </div>
+          </div>
+            </div>
+          
         <div className="tracker1-row">
           <CardDataGlobal />
         </div>
