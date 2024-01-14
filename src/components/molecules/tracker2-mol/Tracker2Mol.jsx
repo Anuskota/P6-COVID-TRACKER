@@ -1,31 +1,42 @@
-import { DataTable } from '../../../../node_modules/primereact/datatable';
-import { Column } from '../../../../node_modules/primereact/column';
-import TopTen from '../../../services/TopTen';
-import { useState, useEffect } from 'react';
-
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
+import { useState } from 'react';
+import { FilterMatchMode, FilterOperator } from 'primereact/api';
+import { InputText } from 'primereact/inputtext';
+import './tracker2Mol.css';
+import FetchData from '../../../services/FetchData';
 
 export default function Tracker2Mol() {
-  const {
-    topTenCases,
-  } = TopTen();
+  const { data, error } = FetchData('countries');
 
 
-  console.log(topTenCases)
-  const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    topTenCases.getProductsMini().then(data => setProducts(data));
-  }, []);
-
-    return (
-        <div className="card">
-            <DataTable value={products} tableStyle={{ minWidth: '50rem' }}>
-                <Column field="code" header="Code"></Column>
-                <Column field="name" header="Name"></Column>
-                <Column field="category" header="Category"></Column>
-                <Column field="quantity" header="Quantity"></Column>
-            </DataTable>
-        </div>
-    );
+  return (
+    <div className="tracker2-container">
+      <div className="card">
+        {error ? (
+          <h1>Error fetching data</h1>
+        ) : data ? (
+          <DataTable value={data} paginator className="p-datatable-customers" rows={10}
+          paginatorTemplate="FirstPageLink PrevPageLink PageLinks NextPageLink LastPageLink CurrentPageReport RowsPerPageDropdown" rowsPerPageOptions={[10,25,50]}
+          dataKey="id" rowHover filterDisplay="menu"
+          globalFilterFields={['country']} emptyMessage="No country found."
+          currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries">
+            <Column field="flag" header="Flag" style={{ minWidth: '14rem' }}></Column>
+            <Column field="country" header="Country" sortable/>
+            <Column field="cases" header="Cases" sortable></Column>
+            <Column field="todayCases" header="New Cases" sortable></Column>
+            <Column field="deaths" header="Deaths" sortable></Column>
+            <Column field="todayDeaths" header="New Deaths" sortable></Column>
+            <Column field="recovered" header="Recovered" sortable></Column>
+            <Column field="active" header="Active" sortable></Column>
+            <Column field="critical" header="Critical" sortable></Column>
+            <Column field="tests" header="Tested" sortable></Column>
+          </DataTable>
+        ) : (
+          <h1>Loading...</h1>
+        )}
+      </div>
+    </div>
+  );
 }
-
