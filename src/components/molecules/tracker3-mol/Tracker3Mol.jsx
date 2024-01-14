@@ -16,7 +16,7 @@ const Tracker3Mol = () => {
     <>
     <div className="tracker3-container">
     <h1 className='tracker3-container-h1'>Top 10 Country wise Covid-19 Updates - Tiles</h1>
-      <div className='tracker3-row'>
+      <div className='tracker3-row d-flex gap-5'>
     <div className="tracker3-column">
       <h4>Top Cases</h4>
     {topTenCases.length > 0 ? (

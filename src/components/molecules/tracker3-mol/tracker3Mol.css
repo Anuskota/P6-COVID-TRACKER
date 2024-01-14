@@ -1,5 +1,6 @@
 .tracker3-container{
     display: flex;
+    flex-direction: column;
     gap: 1.5rem;
     margin-left: 31.25rem;
     background: #F7F8FC;
