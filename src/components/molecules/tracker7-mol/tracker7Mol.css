@@ -14,6 +14,16 @@
   flex-wrap: wrap;
 }
 
+.map-container h1{
+  font-weight: 650;
+  font-size: 1.75rem;
+  color: #121158;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
 .tracker7-row {
   display: flex;
   flex-wrap: wrap;

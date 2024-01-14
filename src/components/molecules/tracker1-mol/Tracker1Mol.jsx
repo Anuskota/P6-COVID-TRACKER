@@ -29,7 +29,8 @@ const Tracker1Mol = () => {
   };
   return (
     <>
-      <div className="container-tracker1 p-4">
+      <div className="container container-tracker1 p-4">
+        <div className="row">           
         <div className="dropDown-container d-flex justify-content-between">
           <DropDownButton
             items={
@@ -59,6 +60,7 @@ const Tracker1Mol = () => {
         <div className="tracker1-row">
           <CardDataGlobal />
         </div>
+      </div>
       </div>
     </>
   );

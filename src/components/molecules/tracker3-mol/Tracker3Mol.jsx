@@ -14,7 +14,7 @@ const Tracker3Mol = () => {
 
   return (
     <>
-    <div className="tracker3-container">
+    <div className="container tracker3-container">
     <h1 className='tracker3-container-h1'>Top 10 Country wise Covid-19 Updates - Tiles</h1>
       <div className='tracker3-row d-flex gap-5'>
     <div className="tracker3-column">

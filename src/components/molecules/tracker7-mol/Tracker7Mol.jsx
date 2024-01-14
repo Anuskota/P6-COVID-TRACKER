@@ -9,7 +9,6 @@ const Tracker7Mol = () => {
   const { data, error } = FetchData("countries");
   const contentCard = UseData();
 
-
   if (error) {
     console.error("Erro ao obter dados:", error);
     return <h1>Erro ao carregar dados</h1>;
@@ -26,7 +25,7 @@ const Tracker7Mol = () => {
     
       <div className="map-container">
       <h1>World</h1>
-<div>MAP HERE</div>
+       <div>MAP HERE</div>
       </div>
       <div className="tracker7-container">
         <div className="tracker7-row">
