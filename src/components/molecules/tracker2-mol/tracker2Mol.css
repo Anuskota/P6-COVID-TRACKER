@@ -1,12 +1,7 @@
 .tracker2-container {
-    display: flex;
-    flex-direction: column;
     gap: 1.5rem;
     margin-left: 31.25rem; 
     background: #F7F8FC;
-    padding: 0.625rem 1.25rem;
-    width: calc(100% - 31.25rem);
-    flex: 1; 
 }
 
 .tracker2-container h1 {
@@ -19,19 +14,7 @@
     background: #F7F8FC;
 }
 
-::-webkit-scrollbar {
-    position: relative;
-    top: 0px;
-    float: right;
-    width: 3px;
-    height: 655px;
-    background-color: rgb(238, 238, 238);
-    border: 0px solid rgb(255, 255, 255);
-    background-clip: padding-box;
-    border-radius: 5px;
-  } 
-
-  .datatable-doc-demo .p-paginator .p-paginator-current {
+.datatable-doc-demo .p-paginator .p-paginator-current {
     margin-left: auto;
 }
 .datatable-doc-demo .p-progressbar {
@@ -61,7 +44,7 @@
 .datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
     text-transform: uppercase;
 }
-        
+       
 
   @media screen and (max-width: 1199px) {
     .tracker2-container {
