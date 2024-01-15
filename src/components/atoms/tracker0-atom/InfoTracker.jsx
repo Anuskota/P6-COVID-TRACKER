@@ -55,7 +55,7 @@ const InfoTracker = () => {
                 <h6>{data.deaths}</h6>
               </div>
             </div>
-          </div>,
+          </div>
         ]
       )}
     </>

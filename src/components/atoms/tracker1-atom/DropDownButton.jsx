@@ -2,11 +2,11 @@ import Dropdown from "react-bootstrap/Dropdown";
 import PropTypes from "prop-types";
 import "./dropDownButton.css";
 
-const DropDownButton = ({ items, onSelect,selectedCountry }) => {
-    
-    const handleClick = (country) => {
-        onSelect(country);
 
+const DropDownButton = ({ items, onSelect,selectedCountry }) => {
+    const handleClick = (country) => {
+        console.log("Handle Click: ", country);
+        onSelect(country);
     }
     return (
         <>
@@ -22,6 +22,7 @@ const DropDownButton = ({ items, onSelect,selectedCountry }) => {
                 ))}
             </Dropdown.Menu>
             </Dropdown>
+            
         </>
     );
 };

@@ -1,38 +1,6 @@
-<<<<<<< HEAD
+
 body, #root {
     box-sizing: border-box;
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
-body, #root{
-    box-sizing: border-box;
-    height: 100%;
-=======
-body{
->>>>>>> 77889f2acdded527d23ab623fb31a0a279556697
-<<<<<<< HEAD
-=======
-=======
-body, #root{
-    box-sizing: border-box;
-    height: 100%;
->>>>>>> 877b7fcd9c4c9e64ed0799d7881b5c02cfca786f
-=======
-body{
->>>>>>> 8fd18a110098072928b7ddafb44d7dacea960259
-=======
-body, #root{
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
->>>>>>> 4e9d38472819bd1d408d64285dc88db91d4851ac
->>>>>>> bbaa8b29a159745b3cab80a778f2c8eedd6c9209
->>>>>>> adb22b40f9f3a47839a2b5c573774cbf07b789e9
     font-family: 'Poppins', sans-serif;
     width: 100%;
 }
