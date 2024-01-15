@@ -54,6 +54,8 @@
 
 .last-icon-nav{
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .nav-content-bttn:hover {

@@ -2,12 +2,19 @@ import Dropdown from "react-bootstrap/Dropdown";
 import PropTypes from "prop-types";
 import "./dropDownButton.css";
 
+<<<<<<< HEAD
 
 const DropDownButton = ({ items, onSelect,selectedCountry }) => {
     
     const handleClick = (country) => {
         onSelect(country);
+=======
+>>>>>>> e82079d32935328db97ab27452f833fdf42f6525
 
+const DropDownButton = ({ items, onSelect,selectedCountry }) => {
+    const handleClick = (country) => {
+        console.log("Handle Click: ", country);
+        onSelect(country);
     }
     return (
         <>
@@ -23,6 +30,7 @@ const DropDownButton = ({ items, onSelect,selectedCountry }) => {
                 ))}
             </Dropdown.Menu>
             </Dropdown>
+            
         </>
     );
 };

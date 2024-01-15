@@ -1,8 +1,11 @@
 
 body, #root {
     box-sizing: border-box;
+<<<<<<< HEAD
     height: 100%;
 
+=======
+>>>>>>> e82079d32935328db97ab27452f833fdf42f6525
     font-family: 'Poppins', sans-serif;
     width: 100%;
 }

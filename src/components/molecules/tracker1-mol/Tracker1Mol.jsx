@@ -13,9 +13,7 @@ const Tracker1Mol = () => {
   const map = Map();
 
   const { data: allCountries } = FetchData("countries");
-  console.log(allCountries); 
   const [selectedCountry, setSelectedCountry] = useState(null);
-  
 
   useEffect(() => {
     if (allCountries && allCountries.length > 0) {
@@ -24,9 +22,12 @@ const Tracker1Mol = () => {
   }, [allCountries]);
 
   const handleCountrySelect = (country) => {
+    console.log("Selected country:", country);
     const selectedCountryData = allCountries.find((c) => c.country === country);
+    console.log("Selected Country Data:", selectedCountryData);
     setSelectedCountry(selectedCountryData);
   };
+
   return (
     <>
       <div className="container container-tracker1 p-4">
@@ -54,6 +55,7 @@ const Tracker1Mol = () => {
             </svg>
           </div>
         </div>
+        
           </div>
             </div>
           

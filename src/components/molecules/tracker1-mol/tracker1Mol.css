@@ -1,7 +1,8 @@
 .container-tracker1{
     margin-left: 31rem;
     background-color: #F7F8FC;
-    margin-right: 0;
+    width: calc(100% - 31rem);
+    flex: 1;
 }
 
 .cards-container{
