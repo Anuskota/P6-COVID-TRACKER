@@ -1,0 +1,53 @@
+.tracker2-container {
+    gap: 1.5rem;
+    margin-left: 31.25rem; 
+    background: #F7F8FC;
+}
+
+.tracker2-container h1 {
+    font-weight: 700;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: #121158;
+    font-size: 1.625rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.456);
+    background: #F7F8FC;
+}
+
+.datatable-doc-demo .p-paginator .p-paginator-current {
+    margin-left: auto;
+}
+.datatable-doc-demo .p-progressbar {
+    height: 0.5rem;
+    background-color: #d8dadc;
+}
+.datatable-doc-demo .p-progressbar .p-progressbar-value {
+    background-color: #607d8b;
+}
+.datatable-doc-demo .p-datepicker {
+    min-width: 25rem;
+}
+.datatable-doc-demo .p-datepicker td {
+    font-weight: 400;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-header {
+    padding: 1rem;
+    text-align: left;
+    font-size: 1.5rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-paginator {
+    padding: 1rem;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-datatable-thead > tr > th {
+    text-align: left;
+}
+.datatable-doc-demo .p-datatable.p-datatable-customers .p-dropdown-label:not(.p-placeholder) {
+    text-transform: uppercase;
+}
+       
+
+  @media screen and (max-width: 1199px) {
+    .tracker2-container {
+        margin-left: 6.25rem;
+    }
+}
